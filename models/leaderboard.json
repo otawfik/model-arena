@@ -1,0 +1,68 @@
+[
+  {
+    "model": "naive-bayes",
+    "display_name": "Naive Bayes",
+    "elo": 1305.8,
+    "cv_accuracy": 1.0,
+    "cv_f1_macro": 1.0,
+    "wins": 9,
+    "losses": 0,
+    "ties": 6,
+    "rank": 1
+  },
+  {
+    "model": "linear-svm",
+    "display_name": "Linear SVM",
+    "elo": 1303.9,
+    "cv_accuracy": 0.9987,
+    "cv_f1_macro": 0.9987,
+    "wins": 9,
+    "losses": 0,
+    "ties": 6,
+    "rank": 2
+  },
+  {
+    "model": "logreg",
+    "display_name": "Logistic Regression",
+    "elo": 1302.8,
+    "cv_accuracy": 1.0,
+    "cv_f1_macro": 1.0,
+    "wins": 9,
+    "losses": 0,
+    "ties": 6,
+    "rank": 3
+  },
+  {
+    "model": "knn",
+    "display_name": "k-Nearest Neighbors",
+    "elo": 1162.7,
+    "cv_accuracy": 0.9947,
+    "cv_f1_macro": 0.9947,
+    "wins": 6,
+    "losses": 9,
+    "ties": 0,
+    "rank": 4
+  },
+  {
+    "model": "random-forest",
+    "display_name": "Random Forest",
+    "elo": 1095.4,
+    "cv_accuracy": 0.984,
+    "cv_f1_macro": 0.9839,
+    "wins": 3,
+    "losses": 12,
+    "ties": 0,
+    "rank": 5
+  },
+  {
+    "model": "dummy",
+    "display_name": "Dummy (majority class)",
+    "elo": 1029.4,
+    "cv_accuracy": 0.2,
+    "cv_f1_macro": 0.0667,
+    "wins": 0,
+    "losses": 15,
+    "ties": 0,
+    "rank": 6
+  }
+]
