@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Model Arena</title>
+<style>
+  body { font-family: system-ui, -apple-system, sans-serif; background: #0d1117;
+         color: #e6edf3; margin: 0; padding: 24px; }
+  .wrap { max-width: 860px; margin: 0 auto; }
+  h1 { font-size: 28px; margin-bottom: 4px; }
+  h1 .trophy { color: #f0b429; }
+  p.sub { color: #8b949e; margin-top: 0; }
+  h2 { font-size: 20px; margin-top: 36px; border-bottom: 1px solid #30363d;
+       padding-bottom: 8px; }
+  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #21262d; }
+  th { color: #8b949e; font-size: 13px; text-transform: uppercase; }
+  tr.leader td { font-weight: 700; }
+  .elo { color: #f0b429; font-weight: 700; }
+  .rec { color: #8b949e; }
+  form.battle { background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+                padding: 20px; margin-top: 12px; }
+  label { display: block; margin: 12px 0 4px; color: #8b949e; font-size: 14px; }
+  input[type=text], select { width: 100%; padding: 10px; border-radius: 6px;
+    border: 1px solid #30363d; background: #0d1117; color: #e6edf3; font-size: 15px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  button { margin-top: 16px; padding: 12px 24px; background: #238636; color: #fff;
+           border: 0; border-radius: 6px; font-size: 16px; cursor: pointer; }
+  button:hover { background: #2ea043; }
+  .result { background: #161b22; border: 1px solid #30363d; border-radius: 8px;
+            padding: 20px; margin-top: 16px; }
+  .vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px;
+        align-items: center; text-align: center; margin-top: 12px; }
+  .card { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 14px; }
+  .card.winner { border-color: #f0b429; }
+  .pred { font-size: 20px; font-weight: 700; }
+  .ok { color: #3fb950; } .miss { color: #f85149; }
+  .samples { margin-top: 16px; font-size: 14px; color: #8b949e; }
+  .samples code { color: #e6edf3; background: #161b22; padding: 2px 6px;
+                  border-radius: 4px; cursor: pointer; }
+  footer { margin-top: 48px; color: #6e7681; font-size: 13px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1><span class="trophy">&#127942;</span> Model Arena</h1>
+  <p class="sub">Six classifiers battle head-to-head on topic classification.
+     Every pair fights, winners climb the ELO ladder.</p>
+
+  <h2>Leaderboard</h2>
+  <table>
+    <tr><th>#</th><th>Model</th><th>ELO</th><th>CV acc</th><th>Record</th></tr>
+    {% for r in board %}
+    <tr class="{{ 'leader' if r.rank == 1 else '' }}">
+      <td>{{ r.rank }}</td>
+      <td>{{ r.display_name }}</td>
+      <td class="elo">{{ r.elo }}</td>
+      <td>{{ r.cv_accuracy }}</td>
+      <td class="rec">{{ r.wins }}-{{ r.losses }}-{{ r.ties }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <h2>Head-to-head battle</h2>
+  <form class="battle" method="post" action="/battle">
+    <label for="text">Text to classify</label>
+    <input type="text" id="text" name="text" placeholder="e.g. the striker scored the winning goal" required>
+    <div class="row">
+      <div>
+        <label for="expected">Expected topic</label>
+        <select id="expected" name="expected">
+          {% for c in classes %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
+        </select>
+      </div>
+      <div>
+        <label for="model_a">Contender A</label>
+        <select id="model_a" name="model_a">
+          {% for n in names %}<option value="{{ n }}" {{ 'selected' if n == 'logreg' }}>{{ display[n] }}</option>{% endfor %}
+        </select>
+      </div>
+      <div>
+        <label for="model_b">Contender B</label>
+        <select id="model_b" name="model_b">
+          {% for n in names %}<option value="{{ n }}" {{ 'selected' if n == 'naive-bayes' }}>{{ display[n] }}</option>{% endfor %}
+        </select>
+      </div>
+    </div>
+    <button type="submit">Fight!</button>
+  </form>
+
+  {% if result %}
+  <div class="result">
+    <div><strong>Text:</strong> {{ result.text }}</div>
+    <div style="margin-top:6px"><strong>Expected:</strong> {{ result.expected }}</div>
+    <div class="vs">
+      <div class="card {{ 'winner' if result.winner == result.name_a else '' }}">
+        <div>{{ display[result.name_a] }}</div>
+        <div class="pred {{ 'ok' if result.ok_a else 'miss' }}">{{ result.pred_a }}</div>
+        <div class="{{ 'ok' if result.ok_a else 'miss' }}">{{ 'correct' if result.ok_a else 'wrong' }}</div>
+      </div>
+      <div><strong>VS</strong></div>
+      <div class="card {{ 'winner' if result.winner == result.name_b else '' }}">
+        <div>{{ display[result.name_b] }}</div>
+        <div class="pred {{ 'ok' if result.ok_b else 'miss' }}">{{ result.pred_b }}</div>
+        <div class="{{ 'ok' if result.ok_b else 'miss' }}">{{ 'correct' if result.ok_b else 'wrong' }}</div>
+      </div>
+    </div>
+    <div style="margin-top:12px">
+      {% if result.winner == 'tie' %}<strong>Draw.</strong> Both models agreed.
+      {% else %}<strong>&#127942; {{ display[result.winner] }} wins the round.</strong>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="samples">
+    Try one:
+    {% for text, cls in samples %}<code onclick="document.getElementById('text').value=this.textContent;document.getElementById('expected').value='{{ cls }}'">{{ text }}</code> {% endfor %}
+  </div>
+
+  <footer>
+    5 topics, synthetic template corpus, ELO k=32 from 1200, round-robin x3.
+    Full tournament: <code>python scripts/run_arena.py</code>
+  </footer>
+</div>
+</body>
+</html>
