@@ -1,0 +1,1802 @@
+[
+ {
+  "text": "This is an invitation to send articles to the Informatica magazine. The first fully international issue has been published and echoes are quite favourable. For any information, contact ([email]). Dear Colleague, April 25, 1993 Number 1 of volume 17 of Informatica is now out of print and some of you will receive it in a week or so. As you will see, the journal is structured in the following way: the editorial (first page); profiles (second page -- biography of an editor, in this issue, Terry Winograd); \u2026",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "sci.med",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "sci.med",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I don't know about Canada, but I have heard from people doing translation work in Papua New Quinea, that they like them and have had good response on service. Another is seriously considering buying one.",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "rec.autos",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "rec.autos",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I've done a bit of looking, and havn't been able to come up with a mailing list or newsgroup for users of Adobe Photoshop. Assuming I've just not missed it, I'll go ahead and see if there is enough interest to start a mailing list (and/or alt. newsgroup). Drop me a note if you might be interested in subscribing. THANKS! --Bob Wier (NOT of the Grateful Dead :-)",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "rec.sport.baseball",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.sport.baseball",
+   "knn": "rec.sport.baseball",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Then Einstein should have had lunch with me at the Tien Fu on Castro Street yesterday, when they handed me a fortune cookie that said \"He who has imagination but not knowledge has wings, but no feet\".",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "rec.sport.hockey",
+   "knn": "sci.space",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "You forgot the part about encasing it in a small shaped charge so that if anyone tries to tamper with it, it explodes and kills you. Oh, and the shaped charge can be set off by remote control...but only if you get out of line. Properly patriotic citizens have nothing to fear.",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "sci.electronics",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.windows.x",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Back in high school I worked as a lab assistant for a bunch of experimental psychologists at Bell Labs. When they were doing visual perception and memory experiments, they used vector-type displays, with 1-millisecond refresh rates common. So your case of 1/200th sec is quite practical, and the experimenters were probably sure that it was 5 milliseconds, not 4 or 6 either. Steve",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I looked back at this, and asked some questions of various people and got the following information which I had claimed and you pooh-poohed. The US has not sold Iraq any arms. Their navy is entirely made of F-USSR vessels. Their airforce (not including stuff captured from Kuwait which I am not as sure about), doesn't include any US equipment. Their missiles are all non-US. Their tanks are almost all soviet, with about 100 French tanks (older ones). The only US stuff in the Iraqi arsenal is a few M113s. Those were \u2026",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "alt.atheism",
+   "linear-svm": "talk.politics.mideast",
+   "random-forest": "misc.forsale",
+   "knn": "rec.sport.hockey",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Yesterday, a friend of mine got a new driver for his card that more than doubled the speed... Naturally, besides being a tad jealous (same machine -- different cards), it got me thinking... What if I am using a slow driver? Wouldn't that be _horrible_ ? :) So netlanders, I need samples of your collective experience (sic) -- Do you proud owners of a Trident 8900C video card w/ 1MB VRAM have tried out more than one driver fro MS Win 3.1 which? which is the fastest? Not to be selfish, and to give you a motive for \u2026",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "BULLSHIT. How many lakes have ceased to be able to support life from purely natural pollution? Man has already done this to scores of lakes. Also, much of the \"degredation\" you cite was done by cows and pigs. And why do think there are so many cows around? Could it be.......cause people raise them?",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "talk.religion.misc",
+   "logreg": "sci.med",
+   "linear-svm": "sci.med",
+   "random-forest": "alt.atheism",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Wow, look at alllthe pretty puddles!!!! Jimmy crack koan, and I don't care, Jimmy crack koan and i don't care, Jimmy crack Koan and i don't care, Zen Master's gone away.....",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "talk.politics.misc",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "rec.autos",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Yes it has to be very clear (like it wasn't there). And of course, cost is always a factor. I am trying to get an idea of the feasability of such an idea. But I don't want to give too much away.",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "rec.autos",
+   "knn": "comp.sys.mac.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "A great deal of documentation exists on exactly that phenomenon. Especially regarding Vietnam and the Mai Lai (sp?) massacre Not that I'm suggesting that they started it on purpose but even if they now know that they accidentally started (or contributed to it) you can be sure the initial reaction is to lie. Remember the Iranian airliner which the US navy mistook for a fighter and shot down?",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "sci.med",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "In other words, the right of might. In other words, the right of might. In other words, he can do it, he did it, and your in no position to argue about it. In other words, you better do what this God wants you to do, or else!",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I remember a simple program that would play those chimes for you when you clicked their respective buttons. Does anyone know where that is? This was circa 1988, I think. Cheers, -e.",
+  "truth": "comp.sys.mac.hardware",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "sci.med",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.sport.hockey",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I'm most of the way through adding a grammar for parsing the #if expressions. I don't know when I'll be able to get back to it; you're welcome to what I have so far. I haven't looked at other versions of makedepend, which may solve the problem more elegantly.",
+  "truth": "comp.windows.x",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.sys.mac.hardware",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Does anyone know how to access and/or display multiple pages in mode 13h while still maintaining the 1 byte per pixel memory organization? Examples in C or Assembly would be appreciated... Thanks Scott",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.windows.x",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I remember as a kid visiting my relatives on Kauai, and one of the things that really frightened me was centipedes. I'd been told they were poisonous and infrequently one would pop up and scare the heck out of me. Once one came out of the vacuum cleaner and it seemed like it was at least a foot long and moving at 35 miles an hour!",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "rec.autos",
+   "logreg": "rec.motorcycles",
+   "linear-svm": "rec.autos",
+   "random-forest": "rec.autos",
+   "knn": "rec.autos",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I know for sure that the Everex Magic I/O EV-170A can be jumpered for a printer mode, or for a general purpose bidirectional I/O mode. Also, I know for sure that the IBM Technical Reference says the following about the Monochrome Display & Printer Adapter and the IBM Parallel Printer Adapter: It is essential that the external device not try to pull these lines [referring to the data lines] to ground. And later: If an external device should be driving data on these pins (in violation of usage ground rules) at the \u2026",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "sci.electronics",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "1) Well, Mr Koresh allowed other children and adults to leave the compound during the course of the siege; why didnt these children leave then? I dont know myself, and certainly havent heard any answers on this here. 2) Yes, one simple non-action, ie NOT attacking the compound with modified tanks, would have prevented this tragedy. I bet you blamed the MOVE people for the deaths that occurred in adjacent row houses in Philadelphia, not the government which dropped the firebomb, right?",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "talk.politics.guns",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "The remainder of my article deleted stated why. One would be an egotist to believe that someone CARED about what Bill R. thought he needed to say about God. Whether they did or not is irrelevant.",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Yes, but it's broken on OW 2.0. It does not handle multiple pages well. If you don't have the proper PostScript commands it will draw the entire document on the same page instead of pausing after each page. I haven't tried OW 3.0 yet, though.",
+  "truth": "comp.windows.x",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.graphics",
+   "random-forest": "alt.atheism",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "No, Dave, and as an anthropologist I take great umbrage with this misrepresentation. I sense that it is you that has made the jump from creation (science) to religion (see above). I have characterized science/*creation science* as rationalism/nonsense, and that it is. When people promote their religious beliefs as science they become nonsense. Kept where they belong they are meaningful and useful, as virtually any anthropologists will tell you, and as I have said several times in this group. And it works the other \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "alt.atheism",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Hi everybody! Does anyone know of companies that are currently manufacturing encryption chips for sale to the general public? Get them while you can! Some pointers would be greatly appreciated. Thanks",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "comp.graphics",
+   "linear-svm": "sci.crypt",
+   "random-forest": "sci.crypt",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[email] (Gerry Palo) For my money the primary danger of anti-cult groups is that they are every bit as wacky as the groups they oppose and that by and large they have no compunctions about printing lies, half-truths and misleading innuendos as part of their exposes. A recent book on cults I picked up by a \"Christian\" author quite simply mixed in all non-Christian religions (except the Jews) and various New Age groups with various fringe groups of dubious intent and legality. Given the record of \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "soc.religion.christian",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "How does the 16 bit color of HDTV work ? It can not be 5 bit Red Green and Blue like on the Macintosh. This gives only 64 gray levels. Apple also has developed a point-point network that is around 200MB (not sure if it is bits or bytes) per sec.",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.sys.mac.hardware",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "What is the healthiest way to deal with earwax? Should one just leave it in your ear and not mess with it, or should you clean it out every so often? Can cleaning it out damage your eardrums? Are there any tubes in your ear that might get blocked?",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "sci.med",
+   "knn": "sci.med",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "The only book I know of is : \"The X Window System Server - X Version 11, Release 5\" by Elias Israel / Erik Fortune Digital Press Copyright 1992 Order number EY-L518E-DP DP ISBN 1-55558-096-3 PH ISBN 0-13-972753-1 But if there are any more, please post/email me the names. -- -- bkilgore Thus spake the master programmer: \"After three days without programming, life becomes meaningless.\" - Geoffrey James \"The Tao of Programming\" ------------------------------------------------------",
+  "truth": "comp.windows.x",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.windows.x",
+   "random-forest": "comp.windows.x",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": ": : I am facinated by the things I have heard about the PGP : encryption program. Does anybody out there know where I might get a : version of this program that runs under Windows 3.1, MS-Dos, Unix : w/source? As of this writting I have no UNIX access and am running on a : nifty windows implamentation of uucico. At the moment PGP is available in executable format for MS-DOS and Mac, and source code for most other platforms including UNIX. Many FTP sites keep a copy (although the Mac version is getting hard to \u2026",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "comp.graphics",
+   "linear-svm": "sci.crypt",
+   "random-forest": "sci.crypt",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": ": I heard about the arms sale to Saudi Arabia. Now, how is it such a grave : mistake to sell Saudi Arabia weapons? Or are you claiming that we shouldn't : sell any weapons to other countries? Straightforward answer please. Saudi Arabia is an oppressive regime that has been recently interfering in the politcs of newly renunified Yemen, including assasinations and border incursions. It is entirely possible that they will soon invade. Unluckily for Yemen it is not popular in the West as they managed to put aside \u2026",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "talk.politics.mideast",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "talk.politics.mideast",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Hello Netters I recenlty aquired enough money to purchase a laser printer. The other day, I bought the COMPUTER SHOPPER mag. I was looking through printer review section and noticed the WINPRINTER800. The machine is incredibly low priced for all the features it has 800 dpi! 8Meg RAM Postscript compatable envelope printing My question is does anyone have one of these or know why the price is so cheap? I would appricaiate it if someone would pass on their knowledge on this subject. Thanks alot! Dave \u2026",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.os.ms-windows.misc",
+   "logreg": "misc.forsale",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "The peaceful attempt to serve the warrant was met with gunfire. Due process was not served because the Branch Davidians wanted it that way. *You* think on that. -- \"Milk is for babies; when you're a man, you drink beer\" - Arnold",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "talk.politics.guns",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "> > Bull shit. There is no reason in the world why we can't say that > taking views analogous to the KKK's or some such organization is > wrong. There is no reason why some morality may not be legislated. As > it is we do not allow theft, or murder, or rape. Why should we allow > hateful sppech whose only purpose is to stir anger and violence. > > Harry. Actually, You're wrong as well. The KKK is allowed to march and any attempts to curtail their freedom is rejected (Actually I believe the ACLU won a case for them \u2026",
+  "truth": "talk.politics.mideast",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "alt.atheism",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "On the news from radio station KANU (Lawrence, KS) about 6:15 this Monday morning, I heard someone with a nasal-sounding voice (supposedly the Waco coroner?) claim that he had found TWO persons killed with a single shot to the forehead. --Myron.",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "talk.politics.guns",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[byteocide] You take two copies with a different registration id, compare them byte for byte and you know where they are located. Usually you will be able to find out what is what after that. And what keeps me form registering as John Doe from the company Public Domain, Yellow Brick Road 1, Tinseltown or something??? ------------------------------------------------------------------------------- Guido Klemans Internet: [email] valid until 16 may 1993 \u2026",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "rec.sport.baseball",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.motorcycles",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "^^^^^^^^^^^^^^^^^^^^^^^^^ Markus, what is that we are noting about the spelling? That you aren't good at it? :^) That Peugeot is OUT of N. America? What does this mean?",
+  "truth": "rec.autos",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "rec.autos",
+   "knn": "rec.sport.hockey",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "An advertisement in MicroTimes (a bay area mini-Computer Shopper) from ENCY systems in Fremont has a graphic for the P24T performance based on MIPS (power meter v1.7): the 486DX-33 raked in about 14-15, the 486DX2-66 got about 24, and the P24T-66 got about 44-45. Tom",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "sci.electronics",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "The Libertarians believe in getting the government off the backs of the people, so that the free market can solve problems. Libertarians believe in an end to the welfare state, an end to government subsidies of all sorts. The basic idea is that the government is way too big and way too expensive, and should be shrunk down to a reasonable size. They also believe in a complete end to foreign aid, including the stationing of American troops overseas. We can not and should not be policing the world. I agree that the \u2026",
+  "truth": "talk.politics.mideast",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "talk.politics.misc",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.mideast",
+   "knn": "talk.politics.mideast",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[...] The House Document Room can be reached at +1 202 225 3456. You need to have the number of the document you want (e.g. HR1036) and they'll be happy to send it to you. Tell them if it's going to be a big stack, because the surly sounding guy who answers is scrawling in a really awful hand on the back of the envelope that will come and will run out of room quickly if you don't tell him. The Senate document room is too important to deal with the likes of you and I, and will answer requests from off the hill only \u2026",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.autos",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Very good point. Is there someone out there that is working on this? I'd offer my time to help manage/do it all myself but yaw'll are not going to hear from me over the summer. I'm not trying to be pushy, and there is being progress made (re: pov mailing list). -hed",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "rec.sport.baseball",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "SREBRENICA'S DOCTOR RECOUNTS TOWN'S LIVING HELL By Laura Pitter TUZLA, Bosnia, Reuter - Neret Mujanovic was a pathologist when he trekked through the mountains to the besieged Muslim town of Srebrenica last August. But after treating 4,000 mangled victims of Bosnia's bloody war, he considers himself a surgeon. ``Now I'm a surgeon with great experience although I have no license to practice. But if I operate on a person and he lives normally that's the greatest license a surgeon could have.'' Evacuated by the U.N. \u2026",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "sci.med",
+   "linear-svm": "sci.med",
+   "random-forest": "sci.med",
+   "knn": "talk.politics.mideast",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I haven't read this entire thread, but, if someone hasn't tossed this out yet, then here it is: 2 Samuel 12:21-23 (RSV) : \"Then his servants said to him, `What is this thing that you have done? You fasted and wept for the child while it was alive; but when the child died, you arose and ate food.' He [David] said, 'While the child was still alive, I fasted and wept; for I said, 'Who knows whether the LORD will be gracious to me, that the child may live?' But now he is dead; why should I fast? Can I bring him back \u2026",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "soc.religion.christian",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "#Frank, unless you didn't realize it, you are just now involved #in a debate where we have various opinions, and each entity #has its own frame where the opinion is expressed. I think I #don't need to state the dreadful r-word. So, it's _sometimes_ correct to say that morality is objective, or what? After all, I could hardly be wrong, without dragging in the o-word. For your part, when you say that relativism is true, that's just your opinion. Why do folk get so heated then, if a belief in relativism is merely a \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "talk.religion.misc",
+   "logreg": "alt.atheism",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "alt.atheism",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I'm writing a driver that needs to remap some I/O ports. This means virtual mode. Unfortunately virtual mode means it won't get along with expanded memory managers, so I need make it an EMM driver too. Does anyone out there have EMM code. Can any point me to an EMM code source? -Thanks, Morgan",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.graphics",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I was at that game, behind home plate next to a scout who was manning the radar gun. The 1991 season was winding down and Roger didn't have his best fastball, topping out at 88-90 (in contrast to Frank Tanana, who went as low as 50 with one lollipop in the process of striking out Phil Plantier *five* times on the night). Inky's shot would have gone further than any I've ever seen if it hadn't crashed *into* the lights (not the lightstand) as you say over 100 feet high, Roy Hobbs-like, and bounced back onto the \u2026",
+  "truth": "rec.sport.baseball",
+  "preds": {
+   "naive-bayes": "rec.sport.baseball",
+   "logreg": "rec.sport.hockey",
+   "linear-svm": "rec.sport.hockey",
+   "random-forest": "rec.sport.hockey",
+   "knn": "rec.sport.baseball",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "TO: [email] (Ravi or Deantha Menon) RO> First off, use some decent terms if ya don't mind. This is sci.med, not RO> alt.sex. Would you like to rephrase that?",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "sci.med",
+   "random-forest": "sci.med",
+   "knn": "sci.med",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Check out the shocks where they mount, at both ends. if you have the type that have a loop?,from lack of a better term, and a bolt like piece sticking through, there should be a rubber bushing between the loop and the bolt. Is it there ? is it crushed and allowing metal to metal contact? I hope you can make some sense of this. Good Luck.>",
+  "truth": "rec.autos",
+  "preds": {
+   "naive-bayes": "rec.autos",
+   "logreg": "rec.motorcycles",
+   "linear-svm": "rec.motorcycles",
+   "random-forest": "rec.motorcycles",
+   "knn": "rec.autos",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": ": : . : It's my understanding that the U.S. Supreme Court has never : given a legal definition of religion. This despite the many : cases involving religion that have come before the Court. : Can anyone verify or falsify this? : Has any state or other government tried to give a legal : definition of religion? According to the legal practices of today's America, I imagine the legal definition of religion, if defined, may resemble the following: \"Any system of belief or practice to which people are committed for the \u2026",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "alt.atheism",
+   "knn": "talk.politics.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "-> Without the key, though, the steering column 'lock' would have to be -> sacrificed. Not necessarily. Maybe some sort of servo lock or something along those lines could be used to acheive the same effect. Maybe a solenoid type of thing too. George Howell",
+  "truth": "rec.autos",
+  "preds": {
+   "naive-bayes": "sci.electronics",
+   "logreg": "sci.electronics",
+   "linear-svm": "rec.motorcycles",
+   "random-forest": "sci.crypt",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Cool it, will you? Let people form their own opinions. Even Mr. Sternlight might be right sometime, and you guys are setting things up so that the only way he can regain any credibility is to renounce his previous statements and move towards the mainstream of net.opinion. This does not bespeak tolerance, IMO. Indeed...",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "talk.politics.misc",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.misc",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Yes, it does. All the equipment has to have that Telekom approval number to be legal. What has changed is that you can buy the equipment somewhere else. I'm pretty sure the same holds true in Sweden (at least when I read some information on it about tweo years ago). And BTW I do know that most of the lines in Sweden can handle tone-dialing, just don't be sure that all can.",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "sci.electronics",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Precisely. One wonders what unusual strain the boy might be under that could be causing \"difficulty with his behavior\". Standard practice would be to get a second opinion from a child psychiatrist. One would want to rule out the possibility that the \"bad behavior\" is not psychiatric illness at all. (Disclaimer: I am not a medic. But I am a parent.)",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "sci.med",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "alt.atheism",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Does anybody know about a converter from CGM to PCX or anything else more common. I've spent some time searching the archives with no luck. Could you email me your responses. Thx in advance, Mike G.",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "sci.electronics",
+   "linear-svm": "comp.windows.x",
+   "random-forest": "comp.graphics",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "As I understand, that number is deceptive. The reason is that the money cost was in non-oil sales for the most part. Iraq still is not allowed to sell oil, or do many of the things under the initial sanctions, but is still surviving. Of the ~93% (I have heard figures closer to 80%, but I won't quibble your figures), most was dropped in carpet bombing of regions only occupied by enemy troops. A B-52 drops a lot of bombs in one sortie, and we used them around the clock. Not to mention other smaller aircraft using \u2026",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "sci.space",
+   "linear-svm": "talk.politics.mideast",
+   "random-forest": "rec.motorcycles",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "For Sale: 386SX-16Mz, 8 meg RAM!, 120 meg Maxtor IDE hard disk, AMI BIOS STB PowerGraph SVGA, 1MB (up to 1024x768x256) LOOP 14\" color SVGA monitor (.28 dot pitch) 1.2 & 1.44 diskette drives Desktop case, turbo & reset switches, Hard Drive LED 101 keyboard, 2 Serial/1 Parallel/ 1 Game Port Serial, 2-button, fully MS-compatible mouse. Everex 2400 bps External modem with MNP5 DOS 5.0, Windows 3.1 Logitech ScanMan 32 HandScanner with all software,docs,box.",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Please help. I have an IBM-compatible notebook computer with an LCD VGA screen. While I was working with it this morning, the screen started to flicker a little, which I thought was odd since I do use a surge-protector for my computer and all peripherals. It only did this for a second and then stopped. I left the room for several minutes and, when I returned, the screen was completely dim, not blank, but very very dim. The contrast slider still worked so that I could adjust it to where I could *faintly* make out \u2026",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "sci.electronics",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Hi All, This is the first time I've posted to the net, so I hope this is going to the right people. I'm looking for software packages that run on an IBM PC clone that allows me to display Openlook and motif windows on the PC. The idea is to use the PC as a cheap X windows terminal for use by process Engineers at work. If anyone can E-Mail me any recommended packages/horror stories/etc I would be greatful. Thanks in advance Mark Wilkinson",
+  "truth": "comp.windows.x",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.windows.x",
+   "random-forest": "comp.windows.x",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I'm for the moment interested in this notion of the 'leap of faith' established by Kierkegaard. It clearly points out a possible solution to transcendental values. What I don't understand is that it also clearly shows the existentialism system where any leap to any transcendental direction is equal. In other words I might not jump off the cliff mentioned above, but at the same time I will decide to what direction I will go. Actually I will do it just now. Cheers, Kent",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "alt.atheism",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "talk.religion.misc",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "#|> # #|> #False dichotomy. You claimed the killing were *not* religiously #|> #motivated, and I'm saying that's wrong. I'm not saying that #|> #each and every killing is religiously motivate, as I spelled out #|> #in detail. #|> #|> Which killings do you say are religously motivated? # #For example, I would claim that the recent assassination of four #catholic construction workers who had no connection with the IRA #was probably religously motivated. # #|> At the time #|> of writing, I think that someone who \u2026",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I think its a great, but idealistic idea. A reseacher will first of all try to publish a worthy paper in a credible, professional magazine and not in a community like USENET which is infamous for lots (not all) of junk information. The papers that will be \"published\" here will, in general, be of low quality. Also, it is improbable that any credit will be given to a researcher who publish here - and sadly, that is nowadays a main reason for publishing. USENET is great for informal discussions and free exchange of \u2026",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "sci.med",
+   "linear-svm": "sci.med",
+   "random-forest": "sci.med",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "...... When did Koresh go on a rampage? What I saw was an unnecessary, unprovoked massive attack on Feb. 28th. Probably even an illegal action by ATF, certainly way out of proportion to anything reasonable. And yet, according to a pole taken yesterday, 95% of the people poled believe the government forces acted appropriately. They don`t believe Reno or the President have any guilt in ordering/allowing the attack. I suppose they also believed things like: \"I would present a 5-year plan to balance the budget.\" \"We \u2026",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "talk.politics.misc",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.guns",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Actually, I just think he's confused. *I'm* going to hell because I'm Gay, not becuase I don't believe in God. (I wonder if that means I can't come to Tammy & Deans picnic?)",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "alt.atheism",
+   "logreg": "soc.religion.christian",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "soc.religion.christian",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "It seems faith is the only tool available for emotional purposes due to the tragedy. As such it maybe fills a need, however I'm getting tired to see children dying in pain in Sudan due to lack of food, and assuming that God takes these sufferers to heaven after a painful death. Cheers, Kent",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "soc.religion.christian",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "#I find myself unable to put these two statements together in a #sensible way: # #>Abortion is done because the mother can not afford the *pregnancy*. # #[...] # #>If we refused to pay for the more expensive choice of birth, *then* #>your statement would make sense. But that is not the case, so it doesn't. # #Are we paying for the birth or not, Mr. Parker? If so, why can't the #mother afford the pregnancy? If not, what is the meaning of the #latter objection? You can't have it both ways. Birth != pregnancy. If \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.politics.misc",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.misc",
+   "knn": "sci.med",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Steve> Hmmm... given the error corrections in modern audio CDs, is Steve> it sufficient to simply instruct your agent to decrypt using Steve> the bit stream from the second cut of the latest Garth Brooks Steve> CD, or are the usual number of bit errors found acceptable in Steve> commercial CDs because of that error correction enough to Steve> garble the message if such a method is used? One unreliable data point: while looking over the shoulder of a recording engineer, I decided that he was seeing a raw error rate \u2026",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "sci.electronics",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[...] Mr. Kuo: I don't recall seeing your byline around much before (at least on t.p.m). Let me clue you in on this newsgroup. t.p.m is populated largely by people whose hatred for the U.S. government, especially the government of Mr. Clinton, is literally boundless. To these people, the suggestion that agents of the U.S. government would carry out a spectacular massacre of its own citizens, in full view of TV cameras, is not an 'extraordinary claim'. It's just another day in the life of these United States. They \u2026",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "talk.politics.guns",
+   "knn": "talk.politics.mideast",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Then we all live happily ever after. :-) Seriously, if we all agreed on the circumstances we're in, I suspect we'd all agree on the best course of action. Unfortunately, I have no confidence that such a situation will ever arise. Some of us think there's a big God in the sky, some don't. Some think they've been chosen by God, others disagree. Some think they are infallible, others think otherwise. Until those disagreements over circumstances can be ironed out, there's little hope of everyone agreeing. Yes. I think \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "With one exception, that's a pretty good description of many of the Baptists I know. The exception is that they know the difference between an M-16 and an AR-15. Heck - they even know that \"it looks like Richard Petty's stock car\" doesn't mean \"it's a racing stock car\". They may be uncouth, but they've figured out that appearance isn't function. -andy",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "rec.autos",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Does anyone know where I can access an online copy of the proposed \"jobs\" or \"stimulus\" legislation? Please E-mail me directly and if anyone else is interested, I can post this information. Thanks, Mike Brooks NOTE: My E-mail address in the news header is NOT correct. My correct address is:",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.misc",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.graphics",
+   "knn": "talk.politics.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Please reply to the seller below. 210M Formatted SCSI Hard Disk 3.5\" -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- Rodime 3259TS (3 available) New Drives, Unused Capacity, formatted Mbytes: 210.0 Number of data heads: 5 Number of cylinders: 1,235 Track density, tpi: 1700 Positioning times - Track-to-track 5ms Average 18ms Full Stroke (Max) 20ms Rotational speed, RPM: 3600 Avg. rotational latency: 8.33ms SCSI Bus transfer rate: 4M/sec Cache: 48K Guaranteed against DOA Works with Sun, PC, Mac, & misc. other workstations These \u2026",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Though there is a command in the law not to heed to one who prophecies falsely, it is still possible for the one who has prophecied falsely to prophecy truely again. Take, for example the story in Kings about the man of God from Judah who came to israel and prophecied against a king. The Lord had commanded him to not eat or drink till he returned home. Another prophet wanted this man of God to stay in his house, so he prophecied falsely that the Lord wanted the man of God to stay in his house. While they ate and \u2026",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "talk.politics.mideast",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Try rec.radio.packet _______ ______ / / / / Michael A. de Kraker / /______ / / Georgia State University 404-651-2390 / ___ / / / Internet:[email] /_______/ ______/ /_______/ BITNET :REGMAD@GSUVM1 PACKET:KD4FKW@W4QO",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "rec.autos",
+   "logreg": "sci.electronics",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "sci.electronics",
+   "knn": "rec.autos",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "What version of WinFAX do you have? The newest version (3.0) has an OCR (Optical Character Recognition) built in... what this means is that it can take a fax (ie, a letter) and convert it into ASCII so that one can edit the document w/o re-typing it... However, I found that the OCR that comes packaged with WINFAX does not work as well as OMNIpage Professional (also by Delrina software)... So, once again, WinFAX ver. 3.0 has what you are looking for... Good luck!",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.os.ms-windows.misc",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.graphics",
+   "knn": "comp.sys.mac.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Here's something to add to the discussion: Newsgroups: misc.activism.progressive From: \"James P. Reynolds\" <[email]> Subject: When you're not using it, turn it off! Date: Mon, 22 Mar 1993 06:50:14 GMT Lines: 53 Research has shown that the majority of the time that the United States' 30 to 35 million personal computers are on, they are not actively being used. In addition, 30 to 40 percent are left running at night and on weekends. Computer equipment is now the fastest growing private-sector use of \u2026",
+  "truth": "comp.sys.mac.hardware",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "talk.politics.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I'm using DRDOS 6.0 with SuperStor for nearly 2 years now, and I'm wondering, if MSDOS 6.0 could keep up with it at last. Is there anybody who tried out both? What about this Double-Disk ? (had lots of problems with SStor too.) How much memory do you get? (I've got 616K with EMM and SStor) What about the on-line help (Really great in DRDOS) Any help appreciated.",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.os.ms-windows.misc",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I would change one of the many parts that define my cultural identity. If I loose a leg, it might change my personality, but I do not stop being a human being. Even more, when someone gets a baboon heart, that person is still human. Not really. That is what differenciates agnostics from atheists. As an atheist, I do not believe there is a god, nor do I believe that there ever was one. So, those commandments have no meaning to me. Also, there are a lot of ideas that have no meaning to me: The idea of a chosen \u2026",
+  "truth": "talk.politics.mideast",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "talk.politics.mideast",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "No Cramer it does not. In this instance you are telling porkies to *yourself* as well as everyone else. Haven't you ever been to a cafe or restaurant and been absalutely stuffed full of goodies and yet when one more item, just a little different, with a new texture and a new taste, was presented you *somehow* found the space for it. Maybe you haven't, so what? It is a widely reported phenomina and I reckon the same applies to sex.",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.misc",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "sci.space",
+   "knn": "talk.politics.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I'm glad this forum came up. I've been pricing insurance lately and had considered GEICO. But no more!! Any company with practices like theirs can E.S.A.D.!! I'll stay with Liberty mutual. Steve Nicholas Wells Computer Center - Georgia State University [email]",
+  "truth": "rec.autos",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "sci.electronics",
+   "knn": "talk.politics.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "To you, it shouldn't matter if you do evil things or good things. It is all meaningless in the end anyway. So go rob a bank. Go tell someone you dislike that he is a dirty rotten slime bag. What's restraining you?",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "rec.motorcycles",
+   "logreg": "alt.atheism",
+   "linear-svm": "sci.crypt",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "We have reached the point in our society when there are certain crimes that are so heinous that to merely be accused with them one is automaticly considered guilty and deemed not to have any natural rights much less civil rights. Among these are drug abuse, sexual perversion, and political incorrectness. Today Billary accused Koresh of having SEX with infants. He had been accused of a number of differing crimes (inconsistantly) over the last two months, but this is the first time I have heard that one. I had heard \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "talk.politics.misc",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.misc",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "i saw this posted and it brings an interesting event to mind ..... a few weeks ago i was in the DMV with ken. i was standing in a mile long line waiting for some really bored looking person to fleece a bunch of people from some dough. ken was sitting on a chair next to our helmets wondering why everybody there looked to be about the social calibur of people you would find at a laundromat when some young woman walked in who required our conferring attentions. he came over and stood in line with me while we watched \u2026",
+  "truth": "rec.motorcycles",
+  "preds": {
+   "naive-bayes": "rec.motorcycles",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "talk.politics.misc",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Diamond Video cards (stealth, viper, speedstar, etc...) may have excellent specifications, and the windows drivers that come with them might make windows BLINDINGLY fast, BUT: If you're considering buying a system, with a view to using it to run Unix (Linux, bsd, etc...) or some other special software, there is a good chance that it WILL NOT WORK with the Diamond cards. This is due to Diamond's propriety attitude to it's hardware: it's impossible to get free information from them about their chips (specifically \u2026",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "sure the way is on different Okay, so what do you do if some part of the machine (presumably the part on which the code number or whatever that the program has fixated itself upon goes bad, you replace that part, and now your program won't run because it's on a \"different\" computer??? This is, of course, assuming that the program uses something in ROM (like the BIOS serial number, maybe?) and not a disk-based code number. Obviously if the drive goes bad you'll be reinstalling the stuff anyway. I work in a computer \u2026",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "The 68070 is made by someone other than Motorola (Signetics perhaps), and was (if memory serves me correctly) a 68000 compatible single chip micro type chip. IE built in extra toys like serial ports, ram interfaces etc. So, laugh all you want, but there is such a critter!",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "sci.electronics",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "FOR SALE: 1990 Pontiac Grand Prix SE 2-Door Coupe, White, White rims, Gray interior. 58K miles (mostly highway), 3.1 Litre V6 multi-port fuel-injected engine, 5 speed manual transmission. One owner. Options include: A/C, Rear defogger, Power steering, Power brakes, Power windows, Power locks, Power mirrors, Cruise control, Power glass moonroof with sunshade, Power seat/recliner (driver's), Power seat/comfort/lumbar/headrest (both front seats), Trunk pass-through (for skis) AM/FM cassette stero (6 speakers), \u2026",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "rec.autos",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "... there was a post originating from Russia advertising large quantities of red mercury for sale - stirred up a bit of controversy at the time. Then, this morning, NPR relates the news of a corruption scandal involving the russian defense minister (among others), selling defense items, among which (strangely enough), was red mercury. you don't suppose?????",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "sci.space",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I read a mesg. somewhere on GENIE about Intel coming out with a graphics standard called PCI, which would supplant VESA standards. Is this a rumor, or is there some substance to it. If any of y'all have heard of this \"standard\" please e-mail me on how I might obtain more info",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.graphics",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "(stuff deleted) My 66 DX2 is about a week old and is custom built by me and for me. I am using the PC Power and Cooling CPU Cooler. This one has precision ball bearings in the motor. It has a pretty substantial heat sink; so if it happened to fail it would still probably dissipate more heat than the bare chip. It attaches with peel off adhesive. This is a full size AT case, so the fan has gravity in its favor. I would be a little nervous about finding the fan at the bottom of a tower case if it happened to let go. \u2026",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "sci.electronics",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ Joachim I have restrained from involvement in flame wars. These comments however make me long for the days when I was a flame warrior. I would hope that you would refrain from such idiotic slander. Winslow (formerly of Madison) P.S. I might have to drop the formerly and become the \"old\" Winslow of Madison.",
+  "truth": "talk.politics.mideast",
+  "preds": {
+   "naive-bayes": "talk.politics.misc",
+   "logreg": "rec.sport.baseball",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.sport.baseball",
+   "knn": "rec.sport.baseball",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[re: voyages of discovery...] Could you give examples of privately funded ones? If you believe 1492 (the film), Columbus had substantial private funds. When Columbus asked the merchant why he put the money in, the guy said (slightly paraphrased) , \"There is Faith, Hope and Charity. But greater than these is Banking.\"",
+  "truth": "sci.space",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "soc.religion.christian",
+   "knn": "talk.politics.mideast",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "** I am considering either an inkjet or bubble jet printer. I've seen inkjet printers and I was impressed with the near lazer quality. I have heard a lot of bad things about the cheaper bubble-jet printers. Does the ink smudge very easily and take a long time to dry ? Thanks.",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "misc.forsale",
+   "logreg": "sci.electronics",
+   "linear-svm": "sci.electronics",
+   "random-forest": "sci.electronics",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I have a brand new, never used 12 inch mac to scsi cable for sale. I'm asking for $15 + shipping......tell me if this is too high....i don't think it is.. +--------------------------------------------------------------------------+ /~~~~~~~\\ \\_____ | | | TTTTTT EEEEE VV VV EEEEE | | | TT EE VV VV EE | /---/ | TT EEEE VV VV EEEE | Steve Liu |",
+  "truth": "comp.sys.mac.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.mac.hardware",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Close, but no cigar. The LISA was introduced in January, 1983 (at the same time as the Apple //e). I'll have to check to see if the Hard Drive came bundled for the $10K. The floppy drives were 5.25\" initially (the infamous \"twiggy\" drives)",
+  "truth": "comp.sys.mac.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.sys.mac.hardware",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[email] (Hans Erik Martino Hansen) writes Arthur C. Clarke was way ahead of you on this one... he wrote a short story (title?) in the 1950s describing exactly your proposal!",
+  "truth": "sci.space",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "rec.sport.baseball",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "rec.sport.baseball",
+   "knn": "sci.space",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Well lets see - a long haired nut case with sexual hangups surrounded by a lot of gulible losers without a brain between them with a miserable and meaningless death to boot Sounds like he fits the bill to me! Joseph 'Remember David Koresh fried for you' Askew",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "talk.politics.misc",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Believe it or not, we DO have phone books, but the current information does not include an area code for Edmonton Alberta. I would not be so hostile towards others for asking simple questions... \"I would rather appear stupid than open my moutha nd remove all doubt.\" -Mark Twain -- \"If you assult someone you get 5 years--In hockey, 5 minutes. Is this a great sport or what?!\"",
+  "truth": "rec.sport.hockey",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "misc.forsale",
+   "linear-svm": "rec.sport.hockey",
+   "random-forest": "rec.sport.hockey",
+   "knn": "rec.sport.hockey",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "She's published two books about her manic-depressive illness: _Call Me Anna: the Autobiography of Patty Duke_, Patty Duke and Kenneth Turan, Bantam Books 1987 and _A Brilliant Madness: Living with Manic-Depressive Illness_, Patty Duke and Gloria Hochman, Bantam Books 1992",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "sci.med",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "... ... I can think of another alternative: 4) OOBE's are a form of contact with the demonic world, whereby one intentionally or unintentionally surrenders control of his or her perceptions to spiritual beings whose purpose is to deceive and entrap them.",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "No smiley on the part about atheism, I see. Do you realize that your statement says that I was mentioning \"nonsense\" about atheism? This is hard for me to defend against if this is the claim you are making, as you have only included the last two sentences of my post and mentioned the first. Please address the substance of my post rather than rejecting it out of hand. But, because of the sometimes ambiguous nature of English, I may be misinterpreting your wording here. Please clarify: did you or did you not mean to \u2026",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "alt.atheism",
+   "logreg": "soc.religion.christian",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Nah, let's reserve rec.sports.idiots for people who POST obvious flamebait, like yourself. If someone posts something as controversial (not to mention idiotic) as what Austin posted in a widely accessed newsgroup, someone should challenge the statement. There is a school of thought that suggests that silence = consent. Whereas this idea may not apply to everything in life, it certainly SHOULD apply to a forum of public discussion, which r.s.b. is. If you've been reading r.s.b. lately, you'll find that even \u2026",
+  "truth": "rec.sport.baseball",
+  "preds": {
+   "naive-bayes": "talk.politics.misc",
+   "logreg": "alt.atheism",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.misc",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "^^^^^^^^^^^^^^^ This doesn't melt plastic, at least it hasn't melted the plastic bottle that I bought it in yet. Maybe I'd better go check that bottle, its been sittin' awhile -:)",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "rec.motorcycles",
+   "logreg": "rec.motorcycles",
+   "linear-svm": "sci.electronics",
+   "random-forest": "rec.autos",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "What do you accept as a fact -- the roundness of the earth (after all, the ancient Greeks thought it was a sphere, and then Newton said it was a spheroid, and now people say it's a geoid [?])? yourself (isn't your personal identity just a theoretical construct to make sense of memories, feelings, perceptions)? I'm trying to think of anything that would be a fact for you. Give some examples, and let's see how factual they are by your criteria (BTW, what are your criteria?). \"Gravity is _not_ a fact\": is that a \u2026",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "sci.space",
+   "knn": "sci.space",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "LOOK INTO THE FUTURE Discover what lies ahead in Love, Health and Finance Speak LIVE with a Psychic of your choice 900-446-6995 Extension 107 YOU MUST BE 18 OR OVER TO CALL.",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "rec.autos",
+   "logreg": "sci.med",
+   "linear-svm": "sci.med",
+   "random-forest": "sci.med",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "When I was a school boy, my biology teacher told us of an incident in which a couple were very passionate without actually having sexual intercourse. Somehow the girl became pregnent as sperm cells made their way to her through the clothes via persperation. Was my biology teacher misinforming us, or do such incidents actually occur?",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "talk.politics.misc",
+   "logreg": "talk.politics.mideast",
+   "linear-svm": "talk.politics.misc",
+   "random-forest": "talk.politics.misc",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I'm working on my senior project here at UF (florida). The project requires fractel trees. I'm interested in either psuedo or real code; just about anything will help. Perhaps some good books on the subject could help too. mail will reach at: [email]",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "comp.graphics",
+   "knn": "talk.politics.guns",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "It looks like Ben Baz's mind and heart are also blind, not only his eyes. I used to respect him, today I lost the minimal amount of respect that I struggled to keep for him. To All Muslim netters: This is the same guy who gave a \"Fatwah\" that Saudi Arabia can be used by the United Ststes to attack Iraq . That Fatwah is as legitimate as this one. With that kind of \"Clergy\", it might be an Islamic duty to separate religion and politics, if religion means \"official Clergy\".",
+  "truth": "talk.politics.mideast",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "alt.atheism",
+   "knn": "alt.atheism",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "This is quite corect, but a bullet hitting a burned body with little energy will show virtually no deformation, ie a hollow point probably would not expand, an FMJ would be \"pristene\". Also the bullets will not be marked with the lands ang grooves of a barrel, because they didn't come out of one. A good pathologist should be able to notice this right away. Let us hope that the ME's that handle these bodies are more competent then the ones who did JFK's body.",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "talk.politics.guns",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "rec.autos",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[I'm going to cut \"Rex\"'s ramblings down a bit.] [...] Rex, there are literally hundreds of thousands of 32nd degree Masons in this country, and thousands of 33rds. If nasty stuff was really going on, don't you think you'd have more than a couple of disgruntled members \"exposing\" it? Heck, if what you say is true, then Rev. Norman Vincent Peale is an Osiris worshiper. [... Long quote from someone named Hislop (source not given) deleted. I'm attempting to extract from it the relevent points: * Osiris is actually \u2026",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "talk.religion.misc",
+   "random-forest": "soc.religion.christian",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I still think a major point is being missed... If you are worried about software pirates, NOTHING will stop them. These are people who crack software (mostly games, but so what) daily for fun. They can usually find a crack around anything, especially if the manufacturer leaves a hole for such a thing.",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "rec.sport.baseball",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.sport.baseball",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Does anyone know how to absolute memory locations in windows, ie. hardware that is memory mapped at very high addresses 16mb++ and above? Please reply by email thanks David",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "rec.sport.hockey",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "If you had free reign to design your own instrument cluster, which gauges would you choose to have beyond the basic set? I consider the basic set to be: - tach - coolant temp (or cylinder head temp for air-cooled engines) - oil pressure - amps - speedo - fuel others that are nice to have: - volts (maybe this should be in the basic set) - vacuum/boost I can think of a few others, but what are your ideas and why?",
+  "truth": "rec.autos",
+  "preds": {
+   "naive-bayes": "sci.electronics",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "rec.autos",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Acetone will likely damage the carpet. First solvent to try is denatured alcohol. Do not waste your time with rubbing alcohol. You can use methyl alcohol instead of denatured alcohol. If you want to have a cocktail while you are removing the goo, use pure grain alcohol :-). If the alcohol does not work try carbon tetrachloride. If neither of these work you may need to try a stronger solvent, but the alcohol works for most adhesives. Good luck.",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "rec.autos",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "sci.electronics",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I have 9 of these mice which are just taking up space in my office. Please buy them. The price is only $11 and it will only cost you 2.90 to ship USPS if you prepay. Here is all I know about them: Mice 2-button high resolution 400cpi The mice are acutally quite comfortable, much like the new hp ergo mouse. Snugs the hand.",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "misc.forsale",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "sci.space",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "They also have a lot of the other voters really irritated at them. Okay, folks, I know I'm in the minority on this issue, but I can't let this assertion go unchallenged yet again. I'm going to say this ONLY ONCE, in the hopes of NOT starting a flame war off of the main topic. Guns are offensive. Cryptography is defensive. See the difference? The only way you can use a gun is to hurt somebody else. Crypto- graphy helps prevent other people from hurting you.",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "talk.politics.guns",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "talk.politics.guns",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I would like to buy a 4 channel multitrack recorder. I would prefer a cassette machine such as those made by Fostex, Tascam, Yamaha, etc. but would consider reel-to-reel as well. Write me if you know of anything. Thanks. -- W. Craig Scratchley | internet: [email] Dept. of Systems and Computer Engineering | phone: (613) 788-5740 (Dept.) Carleton University | (613) 241-6952 (Home) Ottawa, ON, CANADA K1S 5B6 | fax: (613) 788-5727 (Dept.)",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "misc.forsale",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Hello, I hope this is the right group to post this in. I've got a little problem. I finally managed to get a REAL operating system (Linux, as opposed to MS-Dos) and I like it alot. But, when I try to run 'startx', I get a strange response: My monitor goes into graphics mode and I get this big white rectangle on the screen - that's all! Nothing else! Now, I've collected almost every FAQ in the world to help me but either it's too confusing or I must be missing something. My setup: 386DX (about 20Mhz) Trident 8900C \u2026",
+  "truth": "comp.windows.x",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.graphics",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "My god, how many chances do they get? Operation Move (Philedelphia, early 80's), Black Panthers (Chicago, 1969), etc., etc. Hell, we get heavily armed millenial cults out west every couple of years. Do with have to start a cascade of times the feds have been in situations like this?",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "soc.religion.christian",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "soc.religion.christian",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "The Denver Post (supposed voice of the supposed Rocky Mountain Empire) ran the following in the 'Firearms, Supplies' classified heading on Friday, 23 April 1993. If you have an opinion about their new found wisdom, I am told that the person to speak with is one Mr. Walters, (303)820-1267. Notice The Denver Post will no longer knowingly accept any advertise- ment to buy or sell assault weap- ons. The Denver Post finds that the use of assault weapons poses a threat to the health, safety, and security of its readers. \u2026",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "sci.crypt",
+   "linear-svm": "talk.politics.guns",
+   "random-forest": "sci.crypt",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "You are forced everyday to associate with people that you do not wish to, and there isn't even a law that makes you do it. But you do, becuase you want to go shopping, or go to work, or go to a public park, or go to a baseball game, etc.",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "rec.sport.baseball",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "rec.sport.baseball",
+   "knn": "rec.sport.hockey",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "FOR SALE OR TRADE!!! BMW R60US frame and misc.,converted to Earles fork. The package includes: Frame, swingarm and Earles fork Final drive(27/8) Rear fender, front fender, large tank Steel wheels laced w/ ss spokes, one new rim, one EC used rim All brackets, brake hdware, footrests etc. The colour scheme used is the original BMW optional Bristol grey Items not painted are: Earles rigid section(needs straightening, this rigid section was bent when I received it, not from being mounted to the R60US frame),Earles \u2026",
+  "truth": "rec.motorcycles",
+  "preds": {
+   "naive-bayes": "rec.motorcycles",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "There are JPEG viewers that are windows based and therefore need no hardware specific drivers beyond those provided in windows. I got mine from the Library of Congress in connection with their online exhibit of books from the Vatican library. See a previous message in this newgroup about that.",
+  "truth": "comp.graphics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "On my PC I almost exclusively run windows. The only dos based application I have is ProcommPlus. In my config.sys I have emm386 loaded with the option noems (no expanded memory). Following a thread in one of the comp newsgroups, I read that it was no necessary to have emm386 loaded. Indeed, in the manual, it says that emm386 is used to get expanded memory out of extended memory. Since I have the noems option, it seems to me that the emm386 device is useless in my case. Should I use emm386 or should I remove it \u2026",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.os.ms-windows.misc",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Just thought I would add $0.02 to DeskJet thread. I got my first one in college about 5 or so years ago. I've been a happy HP user of the DeskWriter for Macintosh for past 5 years. I got one just a few months after their release. And I got software revision 1.0a (now I'm up to rev. 3.1. Our family (sister and father) have each purchased their own DW's after seeing mine go for one year unscathed (their stuck to their trusty ImageWriter II's). The original DW has gone for 5 years at moderate personal use. I would \u2026",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "misc.forsale",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "misc.forsale",
+   "random-forest": "sci.electronics",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Supra Fax Modem v.32bis external stand alone forsale External with digital status display fax speed up to 14.4 send/receive compat with class 1,2, group 3 data rate @ 14.4/12/96/72/48/24/12/3 v.42bis, v.32bis mnp2-5 hayes compatible \"AT\" command with external cable to your serial port. works with PC, Mac, Amiga.",
+  "truth": "misc.forsale",
+  "preds": {
+   "naive-bayes": "misc.forsale",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.sys.mac.hardware",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Wrong. Quite true. And evolution made \"decided\" that homosexuality had a place, otherwise it would have disappeared quite quickly. There are very few animals which do not exhibit homosexual behavior. It has been here before humans existed, and will be here after the human race has gone. Quite true. 2000 years of religious idiocy have not changed the nature of man. You tried to rid yourselves of us for 2000 years and failed.",
+  "truth": "talk.politics.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "alt.atheism",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "My reason for saying that was 'cause _I_, if _I_ were a cop wouldn't go out of my way to tell people how to break the law. Would you? The part about honesty was a joke, sorta. Obviously, people have had bad experiences with cops lying. Obviously, nobody's perfect and nobody _always_ tells the truth about everything. (Or are you God? 1/4 ;)",
+  "truth": "rec.motorcycles",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "soc.religion.christian",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I've got a 4PR1000A (EIMAC) unused transmitter tube for sale. Best offer so far is $125. That's getting close to what I'll sell it for. Hamfest prices have been about $200 - $250. It works, guaranteed. Original packaging. -- -------------------------------------------------------------------- Dave Medin Phone: (205) 730-3169 (w) SSD--Networking (205) 837-1174 (h) Intergraph Corp. M/S GD3004 Internet: [email] Huntsville, AL 35894 UUCP: ...uunet!ingr!b30!catbyte!dtmedin",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "sci.electronics",
+   "logreg": "misc.forsale",
+   "linear-svm": "sci.electronics",
+   "random-forest": "misc.forsale",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "#|> #|> #|> #|> #This is quite different from saying \"Employing force on other people #|> #|> #is immoral, period. Unfortunately, from time to time we are obliged #|> #|> #to do this immoral thing for reasons of self-preservation, and so #|> #|> #we have to bear the moral consequences of that. #|> #|> #|> #|> Since both statements, to all intents and purposes, say effectively #|> #|> the same thing, #|> # #|> #Are you serious? Two statements, one of which says that use of force #|> #in the given situation is \u2026",
+  "truth": "talk.religion.misc",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "alt.atheism",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I am wondering if anyone has any opinions about the 2theMAX 4000S SVGA card. I just purchased one due to a great price on it. It boasts 16.7 million \"true\" colors, with 1MB onboard. If you know anything about this card, please respond via mail, as this group tends to be overwhelming at times with posts. Thanks in advance!!!",
+  "truth": "comp.sys.ibm.pc.hardware",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.graphics",
+   "random-forest": "comp.sys.ibm.pc.hardware",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "useless which of and a But ingnoring putouts is biased in yet another way. Range is not the only thing that makes a good firstbaseman. The ability to field all sorts of balls thrown to him: digging some out of the dirt, stretching for others, and so forth is important. Thus, putouts do provide some information. Maybe what we need is a comparision of how many balls were thrown to the area of the first baseman vs. how many he actually got.",
+  "truth": "rec.sport.baseball",
+  "preds": {
+   "naive-bayes": "rec.sport.baseball",
+   "logreg": "sci.electronics",
+   "linear-svm": "rec.sport.baseball",
+   "random-forest": "sci.space",
+   "knn": "rec.sport.baseball",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[This was crossposted to a zillion groups. I don't intend to carry an entire discussion crossposted from alt.sex, particularly one whose motivation seems to be having a fun argument. However I thought readers might be interested to know about the discussion there. --clh] I intend to endeavor to make the argument that homosexuality is an immoral practice or lifestyle or whatever you call it. I intend to show that there is a basis for a rational declaration of this statement. I intend to also show that such a \u2026",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "alt.atheism",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I've just started programming with the PIC16c57 and I'd like talk to similar like minded people ? Have you built anything interesting, if so, I'd be interested in talking about various aspects. Yes, I already have the application sheets, assembler & simulator. Cheers, Stuart",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "comp.windows.x",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Try .exe /s (/s for save screen, /c for config, defaults to /c) -------------------------------------------------------------------------------- The question is not \"If a tree falls in the forest and no one sees or hears, did it fall?\" but rather \"How many koalas can that one tree take out???\" [email] -- Tim Fox CP Software Pty Ltd. (ACN 006 640 133) Ph: +61-3-823-0222 19 Cato Street, East Hawthorn, Fax: +61-3-822-0089 Victoria, Australia, \u2026",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "sci.electronics",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "sci.electronics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Basically the right question, although I was interested in cases closer to home where the Sun is behind either a natural object or effective shielding. Good point (and thanks for the references).",
+  "truth": "sci.space",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "sci.med",
+   "linear-svm": "sci.med",
+   "random-forest": "comp.windows.x",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "After reading the posts on this newsgroup for the pasts 4 months, it has become apparent to me that this group is primarily active with Liberals, Catholics, New Agers', and Athiests. Someone might think to change the name to: soc.religion.any - or - perhaps even soc.religion.new. It might seem to be more appropriate. Heck, don't flame me, I'm Catholic, gay, and I voted for Bill Clinton. I'm on your side!",
+  "truth": "soc.religion.christian",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "alt.atheism",
+   "linear-svm": "alt.atheism",
+   "random-forest": "talk.politics.misc",
+   "knn": "soc.religion.christian",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Here's a few two-sport star trivia questions. I'll admit they're not too difficult, but a bit challenging nevertheless. Mail me your answers please; or post them. 1. Which pitcher played for the Harlem Globetrotters? 2. Which major leaguer briefly tried professional golf in 1978? 3. Which does Dieon Sanders have more of (professionally): career touchdowns or triples? 4. Has there been any player of both pro hockey and baseball? If so, name him and the years he played each. If you have any other two-sport star \u2026",
+  "truth": "rec.sport.baseball",
+  "preds": {
+   "naive-bayes": "rec.sport.baseball",
+   "logreg": "rec.sport.hockey",
+   "linear-svm": "rec.sport.hockey",
+   "random-forest": "rec.sport.baseball",
+   "knn": "rec.sport.hockey",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "^^^^^^^^^^^^^^^^^^ Nah .... if MS Windows 3.1 were an operating system, so would be X-windows, motif, geoworks , desqview, the shareware Win-Boss C library and that what's-it's-name text-based windowing system written in Applesoft that ran on the old-faithful Apple II ... [ note the similarity? all of the above rely on some underlying real OS .... ] IMHO, they are windowing systems, and just that. [ some are cooler than others though ... ]",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.windows.x",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.windows.x",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "MC> Theory of Creationism: MY theistic view of the theory of MC> creationism, (there are many others) is stated in Genesis MC> 1. In the beginning God created the heavens and the earth. And which order of Creation do you accept? The story of creation is one of the many places in the Bible where the Story contradicts itself. The following is an example... GEN 1:25 And God made the beast of the earth after his kind, and cattle after their kind, and every thing that creepeth upon the earth after his kind: and God saw \u2026",
+  "truth": "alt.atheism",
+  "preds": {
+   "naive-bayes": "soc.religion.christian",
+   "logreg": "talk.religion.misc",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "soc.religion.christian",
+   "knn": "talk.religion.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "this is a bad idea. my machine is on 24 hours a day, but it's actually _doing_ things 24 hours a day. i use it as an all purpose alarm clock, scheduler, i've got routines that run in the middle of the night, phone calls it makes during the day when i'm out. if your machine is _on_ 24 hours a day, then you can count on it to be _working_ 24 hours a day. i could call it from work and download a file that i might need, i could call it from work and have it turn the lights on if i'm going to be late (oops, more wasted \u2026",
+  "truth": "comp.sys.mac.hardware",
+  "preds": {
+   "naive-bayes": "sci.space",
+   "logreg": "comp.sys.ibm.pc.hardware",
+   "linear-svm": "comp.sys.ibm.pc.hardware",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "misc.forsale",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Please don't post uuencoded bitmaps here. If you want to do so, put them in the alt.binaries.* areas. These files are very large and may crash some users newsfeeds. It's also a waste of band width. Also, we all know how to convert .gif to .bmp with many programs so it'd really not worth posting all of these .bmp files. - thanks",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "comp.os.ms-windows.misc",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.graphics",
+   "knn": "comp.graphics",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "[Discussion on Piracy Deleted] My own practice with new software : make a copy of the original floppies to a second set of floppies. install to hard drive from second set of floppies. put originals in a box in room number one. put copies in box in room number two. 1) Accidents DO happen to original floppies. 2) Accidents CAN happen to the installation floppy. 3) Sometimes software goes out on floppies that are JUST marginally good. Or gets too close to a magnet in shipping or storage. I've had experience with \u2026",
+  "truth": "sci.electronics",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "misc.forsale",
+   "linear-svm": "misc.forsale",
+   "random-forest": "misc.forsale",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I think somebody posted some info about a biobliography program one or two months ago. I don't rember the detail. What I'd like to have is one software to organize the literature I'm refereing for scientific publications. The functions I'd like would be a. able to do data-base managment b. able to print with special formats for different journals Any info would be appreciated. +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ Yi-Ming Wang Radiation Laboratory, University of Notre Dame \u2026",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "sci.med",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "I was just wondering if exercises specific to particular regions of the body (such as thighs) will basically only tone the thighs, or if fat from other parts of the body (such as breasts) would be affected just as much.",
+  "truth": "sci.med",
+  "preds": {
+   "naive-bayes": "sci.med",
+   "logreg": "rec.autos",
+   "linear-svm": "rec.autos",
+   "random-forest": "sci.med",
+   "knn": "rec.autos",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": ": : Speaking of Paddock--what's he doing slagging Sandlak? If Sandlak puts : his mind to it, he can be a physical presence and waking him up might be a : real mistake. Isn't Sandbag out with an injury now anyways? Perhaps Paddock meant to say that Momesso was the cheap short artist. After all, that would make more sense.",
+  "truth": "rec.sport.hockey",
+  "preds": {
+   "naive-bayes": "rec.sport.hockey",
+   "logreg": "talk.politics.misc",
+   "linear-svm": "soc.religion.christian",
+   "random-forest": "talk.politics.misc",
+   "knn": "talk.politics.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "In <[email]>, [email] sez: This is all terribly interesting, but it doesn't belong in misc.legal. Take it elsewhere, please. -- Have you hugged your common nucleus of operative fact today?",
+  "truth": "talk.politics.guns",
+  "preds": {
+   "naive-bayes": "comp.sys.ibm.pc.hardware",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "comp.sys.mac.hardware",
+   "random-forest": "comp.sys.mac.hardware",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "X-Disclaimer: All views are my own unless expicitly stated otherwise. That are the authorisation files for the server. Depending on what type of key your X supports they contain magic cookies, DES based authentication or SUN DES authentication. The place is defined with the DisplayManager.authDir Other things like the file name can be changed as well see XDM manual pages.",
+  "truth": "comp.windows.x",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "comp.windows.x",
+   "linear-svm": "comp.windows.x",
+   "random-forest": "comp.windows.x",
+   "knn": "comp.windows.x",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Yes, and one thing to think about is the pricing on the 160M harddrive configuration. When I got my lowly classic II, the options were 40 or 80M harddrives, and it was clear that buying another 40M of harddrive space would cost *much* more than the difference in price between the two config- uartions. There is an analogous break in the LCIII/80 and 160 prices, and you will not regret spending the extra money for a larger harddrive. Particularly if you ever wind up wanting to use SoftPC, which sets up a several-MB \u2026",
+  "truth": "comp.sys.mac.hardware",
+  "preds": {
+   "naive-bayes": "comp.sys.mac.hardware",
+   "logreg": "comp.sys.mac.hardware",
+   "linear-svm": "sci.space",
+   "random-forest": "sci.space",
+   "knn": "comp.sys.ibm.pc.hardware",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "By night I'm an Amiga user. By day I work with windows. I'd be much more comfortable in windows if I had Two things. 1. A good Personal information manager. You know- a calendar, address book, reminder list etc... rolled into one clean interface. 2. A good file manager. Microsofts is very poor by my standards. How about one that has a left and right window and allows file operations between them. being able to launch programs from the same interface would be nice. as well as text reading and graphics viewing. \u2026",
+  "truth": "comp.os.ms-windows.misc",
+  "preds": {
+   "naive-bayes": "comp.graphics",
+   "logreg": "comp.windows.x",
+   "linear-svm": "comp.os.ms-windows.misc",
+   "random-forest": "comp.os.ms-windows.misc",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Sounds great. But how would something like this be done? Start up a news group for discussions of things like lobbying tecniques and how to get non-computer geeks as pissed-off as we are?",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "comp.os.ms-windows.misc",
+   "logreg": "sci.space",
+   "linear-svm": "sci.space",
+   "random-forest": "sci.space",
+   "knn": "comp.os.ms-windows.misc",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "Could someone explain where these names come from? I'm sure there's a perfectly good reason to name a planetoid \"Smiley,\" but I'm equally sure that I don't know what that reason is. Read John le Carre's \"Tinker, Tailor, Soldier, Spy\", \"The Honorable Schoolboy\" or \"Smiley's People\".",
+  "truth": "sci.space",
+  "preds": {
+   "naive-bayes": "talk.politics.mideast",
+   "logreg": "alt.atheism",
+   "linear-svm": "sci.space",
+   "random-forest": "alt.atheism",
+   "knn": "rec.motorcycles",
+   "dummy": "rec.sport.hockey"
+  }
+ },
+ {
+  "text": "hIn article <[email]> Far more effective than mass mailing of a standard letter (this is taken usually to represent one pressure group) is a set of individual letters. Perhaps Nathaniel Sammons or someone else would like to prepare a set of \"talking points\" from which individuals could compose their own letters.",
+  "truth": "sci.crypt",
+  "preds": {
+   "naive-bayes": "sci.crypt",
+   "logreg": "sci.med",
+   "linear-svm": "sci.med",
+   "random-forest": "comp.windows.x",
+   "knn": "sci.crypt",
+   "dummy": "rec.sport.hockey"
+  }
+ }
+]

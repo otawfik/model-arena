@@ -1,19 +1,22 @@
 """Model registry: six classifiers wrapped in TF-IDF pipelines.
 
 Every contender is a scikit-learn Pipeline(TfidfVectorizer, classifier) so
-training and prediction share one interface for the arena.
+training and prediction share one interface for the arena. The vectorizer and
+hyperparameters are tuned for long, noisy forum posts (20 Newsgroups):
+sublinear term frequency, unigrams + bigrams, and document-frequency cut-offs.
 """
+import numpy as np
 from sklearn.dummy import DummyClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
+from sklearn.naive_bayes import ComplementNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.pipeline import Pipeline
 from sklearn.svm import LinearSVC
 
 DISPLAY_NAMES = {
-    "naive-bayes": "Naive Bayes",
+    "naive-bayes": "Complement Naive Bayes",
     "logreg": "Logistic Regression",
     "linear-svm": "Linear SVM",
     "random-forest": "Random Forest",
@@ -24,19 +27,21 @@ DISPLAY_NAMES = {
 
 def _pipe(clf):
     return Pipeline([
-        ("tfidf", TfidfVectorizer(max_features=2000)),
+        ("tfidf", TfidfVectorizer(sublinear_tf=True, ngram_range=(1, 2), min_df=3,
+                                  max_df=0.5, stop_words="english", max_features=40000,
+                                  dtype=np.float32)),
         ("clf", clf),
     ])
 
 
 MODEL_BUILDERS = {
-    "naive-bayes": lambda: _pipe(MultinomialNB()),
-    "logreg": lambda: _pipe(LogisticRegression(max_iter=2000)),
-    "linear-svm": lambda: _pipe(LinearSVC()),
+    "naive-bayes": lambda: _pipe(ComplementNB(alpha=0.3)),
+    "logreg": lambda: _pipe(LogisticRegression(C=10, max_iter=3000)),
+    "linear-svm": lambda: _pipe(LinearSVC(C=0.5)),
     "random-forest": lambda: _pipe(RandomForestClassifier(
-        n_estimators=100, random_state=7)),
-    "knn": lambda: _pipe(KNeighborsClassifier(n_neighbors=5)),
-    "dummy": lambda: _pipe(DummyClassifier(strategy="most_frequent")),
+        n_estimators=150, min_samples_leaf=2, n_jobs=-1, random_state=7)),
+    "knn": lambda: _pipe(KNeighborsClassifier(n_neighbors=10, metric="cosine", weights="distance")),
+    "dummy": lambda: _pipe(DummyClassifier(strategy="prior")),
 }
 
 
@@ -62,3 +67,17 @@ def train(name, x_train, y_train):
 def predict(model, x):
     """Predict class labels for a list of texts."""
     return list(model.predict(x))
+
+
+def confidence(model, x):
+    """Top-class probability per text, or None for models without probabilities.
+
+    Linear SVM only exposes margins, which aren't probabilities, so it reports
+    None rather than a number that looks comparable but isn't.
+    """
+    if not hasattr(model, "predict_proba"):
+        return [None] * len(x)
+    try:
+        return [float(p) for p in model.predict_proba(x).max(axis=1)]
+    except AttributeError:
+        return [None] * len(x)

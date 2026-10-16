@@ -3,125 +3,237 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Model Arena</title>
+<title>Model Arena — rating classifiers like Chatbot Arena</title>
+<meta name="description" content="Six text classifiers, 30,000 head-to-head games on 7,532 real forum posts, rated with Bradley-Terry and bootstrap confidence intervals.">
 <style>
-  body { font-family: system-ui, -apple-system, sans-serif; background: #0d1117;
-         color: #e6edf3; margin: 0; padding: 24px; }
-  .wrap { max-width: 860px; margin: 0 auto; }
-  h1 { font-size: 28px; margin-bottom: 4px; }
-  h1 .trophy { color: #f0b429; }
-  p.sub { color: #8b949e; margin-top: 0; }
-  h2 { font-size: 20px; margin-top: 36px; border-bottom: 1px solid #30363d;
-       padding-bottom: 8px; }
-  table { width: 100%; border-collapse: collapse; margin-top: 12px; }
-  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #21262d; }
-  th { color: #8b949e; font-size: 13px; text-transform: uppercase; }
-  tr.leader td { font-weight: 700; }
-  .elo { color: #f0b429; font-weight: 700; }
-  .rec { color: #8b949e; }
-  form.battle { background: #161b22; border: 1px solid #30363d; border-radius: 8px;
-                padding: 20px; margin-top: 12px; }
-  label { display: block; margin: 12px 0 4px; color: #8b949e; font-size: 14px; }
-  input[type=text], select { width: 100%; padding: 10px; border-radius: 6px;
-    border: 1px solid #30363d; background: #0d1117; color: #e6edf3; font-size: 15px; }
-  .row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
-  button { margin-top: 16px; padding: 12px 24px; background: #238636; color: #fff;
-           border: 0; border-radius: 6px; font-size: 16px; cursor: pointer; }
+  :root { --bg:#0d1117; --panel:#161b22; --line:#30363d; --soft:#21262d; --text:#e6edf3; --mute:#8b949e;
+          --gold:#f0b429; --good:#3fb950; --bad:#f85149; --blue:#58a6ff; }
+  * { box-sizing: border-box; }
+  body { font-family: system-ui, -apple-system, "Segoe UI", sans-serif; background: var(--bg); color: var(--text);
+         margin: 0; padding: 28px 18px 60px; line-height: 1.5; }
+  .wrap { max-width: 980px; margin: 0 auto; }
+  h1 { font-size: 30px; margin: 0 0 6px; letter-spacing: -.01em; }
+  h1 span { color: var(--gold); }
+  .sub { color: var(--mute); margin: 0; max-width: 70ch; }
+  .stats { display: flex; flex-wrap: wrap; gap: 10px 28px; margin: 18px 0 0; padding: 14px 0; border-block: 1px solid var(--soft); }
+  .stats b { display: block; font: 600 20px ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--gold); }
+  .stats small { color: var(--mute); font-size: 12px; text-transform: uppercase; letter-spacing: .06em; }
+  h2 { font-size: 19px; margin: 40px 0 6px; }
+  .note { color: var(--mute); font-size: 14px; margin: 0 0 14px; max-width: 75ch; }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  th, td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--soft); white-space: nowrap; }
+  th { color: var(--mute); font-size: 11.5px; text-transform: uppercase; letter-spacing: .05em; font-weight: 600; }
+  td.num { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  .rank small { color: var(--mute); }
+  .bt { color: var(--gold); font-weight: 700; }
+  .ci { color: var(--mute); font-size: 12px; }
+  .forest { width: 220px; }
+  .forest svg { display: block; width: 220px; height: 18px; }
+  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 18px; }
+  .grid2 { display: grid; gap: 18px; grid-template-columns: 1fr 1fr; }
+  @media (max-width: 760px) { .grid2 { grid-template-columns: 1fr; } }
+  .heat td, .heat th { text-align: center; padding: 6px; font-size: 12px; border: 0; }
+  .heat td { font-family: ui-monospace, Menlo, monospace; border-radius: 4px; }
+  .heat th.row { text-align: right; color: var(--text); text-transform: none; letter-spacing: 0; font-size: 12.5px; }
+  .pairs { list-style: none; margin: 0; padding: 0; font-size: 13.5px; }
+  .pairs li { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px solid var(--soft); }
+  .pairs .tie { color: var(--gold); }
+  .pairs code { color: var(--mute); }
+  .callout { border-left: 3px solid var(--gold); padding: 4px 0 4px 14px; margin: 14px 0 0; color: var(--text); font-size: 14.5px; max-width: 75ch; }
+  .post { white-space: pre-wrap; font-size: 14px; color: #c9d1d9; background: var(--bg); border: 1px solid var(--soft);
+          border-radius: 8px; padding: 14px; max-height: 210px; overflow: auto; margin: 0 0 14px; }
+  .chips { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
+  .chip { background: var(--bg); border: 1px solid var(--soft); border-radius: 8px; padding: 9px 12px; font-size: 13px; }
+  .chip .who { color: var(--mute); font-size: 12px; }
+  .chip .lab { font-family: ui-monospace, Menlo, monospace; }
+  .chip.ok { border-color: rgba(63,185,80,.55); } .chip.ok .lab::after { content: "  ✓"; color: var(--good); }
+  .chip.no { border-color: rgba(248,81,73,.45); } .chip.no .lab::after { content: "  ✗"; color: var(--bad); }
+  .chip .conf { color: var(--mute); font-size: 12px; float: right; }
+  .truth { margin: 12px 0 0; font-size: 14px; }
+  .truth code { color: var(--good); }
+  button { padding: 10px 18px; background: #238636; color: #fff; border: 0; border-radius: 6px; font-size: 14.5px; cursor: pointer; }
   button:hover { background: #2ea043; }
-  .result { background: #161b22; border: 1px solid #30363d; border-radius: 8px;
-            padding: 20px; margin-top: 16px; }
-  .vs { display: grid; grid-template-columns: 1fr auto 1fr; gap: 12px;
-        align-items: center; text-align: center; margin-top: 12px; }
-  .card { background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 14px; }
-  .card.winner { border-color: #f0b429; }
-  .pred { font-size: 20px; font-weight: 700; }
-  .ok { color: #3fb950; } .miss { color: #f85149; }
-  .samples { margin-top: 16px; font-size: 14px; color: #8b949e; }
-  .samples code { color: #e6edf3; background: #161b22; padding: 2px 6px;
-                  border-radius: 4px; cursor: pointer; }
+  button.ghost { background: transparent; border: 1px solid var(--line); color: var(--text); }
+  button.ghost:hover { background: var(--soft); }
+  .row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 12px; }
+  textarea { width: 100%; min-height: 110px; padding: 12px; border-radius: 8px; border: 1px solid var(--line);
+             background: var(--bg); color: var(--text); font: 14.5px/1.5 system-ui, sans-serif; resize: vertical; }
+  .ex { background: none; border: 1px dashed var(--line); color: var(--mute); padding: 5px 10px; font-size: 12.5px; border-radius: 999px; }
+  .ex:hover { color: var(--text); background: none; border-color: var(--mute); }
+  .status { color: var(--mute); font-size: 13px; }
   footer { margin-top: 48px; color: #6e7681; font-size: 13px; }
+  a { color: var(--blue); }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <h1><span class="trophy">&#127942;</span> Model Arena</h1>
-  <p class="sub">Six classifiers battle head-to-head on topic classification.
-     Every pair fights, winners climb the ELO ladder.</p>
+  <h1><span>&#9878;</span> Model Arena</h1>
+  <p class="sub">Six text classifiers play head-to-head games on real forum posts, rated the way LMSYS rates
+     chatbots: a Bradley&ndash;Terry fit with bootstrap confidence intervals, plus a significance test on every pair.</p>
+  <div class="stats">
+    <div><b>{{ "{:,}".format(board.meta.n_test) }}</b><small>held-out posts</small></div>
+    <div><b>{{ board.meta.n_classes }}</b><small>topics</small></div>
+    <div><b>{{ "{:,}".format(board.meta.n_games) }}</b><small>games</small></div>
+    <div><b>{{ board.meta.n_boot }}</b><small>bootstrap refits</small></div>
+  </div>
 
   <h2>Leaderboard</h2>
+  <p class="note">A game is one held-out post and two models: whoever alone gets the topic right wins; both right or
+     both wrong is a draw. Rank range is the best and worst rank across bootstrap refits.</p>
+  {% set axis_lo, axis_hi = 1010, 1070 %}
+  <div class="scroll">
   <table>
-    <tr><th>#</th><th>Model</th><th>ELO</th><th>CV acc</th><th>Record</th></tr>
-    {% for r in board %}
-    <tr class="{{ 'leader' if r.rank == 1 else '' }}">
-      <td>{{ r.rank }}</td>
+    <tr><th>Rank</th><th>Model</th><th>Rating</th><th class="forest">95% CI</th><th>Accuracy</th><th>W&ndash;L&ndash;D</th></tr>
+    {% for r in board.rows %}
+    <tr>
+      <td class="rank num">{{ r.rank }}{% if r.rank_low != r.rank_high %} <small>({{ r.rank_low }}&ndash;{{ r.rank_high }})</small>{% endif %}</td>
       <td>{{ r.display_name }}</td>
-      <td class="elo">{{ r.elo }}</td>
-      <td>{{ r.cv_accuracy }}</td>
-      <td class="rec">{{ r.wins }}-{{ r.losses }}-{{ r.ties }}</td>
+      <td class="num"><span class="bt">{{ "%.0f"|format(r.bt) }}</span></td>
+      <td class="forest">
+        <svg viewBox="0 0 220 18" aria-label="95% interval {{ r.ci_low }} to {{ r.ci_high }}">
+          <line x1="0" y1="9" x2="220" y2="9" stroke="#21262d"/>
+          {% if r.ci_high < axis_lo %}
+            <text x="2" y="13" fill="#8b949e" font-size="11" font-family="ui-monospace,Menlo,monospace">&#9664; {{ "%.0f"|format(r.bt) }} off scale</text>
+          {% else %}
+            {% set x1 = ((r.ci_low - axis_lo) / (axis_hi - axis_lo) * 220) %}
+            {% set x2 = ((r.ci_high - axis_lo) / (axis_hi - axis_lo) * 220) %}
+            {% set xm = ((r.bt - axis_lo) / (axis_hi - axis_lo) * 220) %}
+            <line x1="{{ x1 }}" y1="9" x2="{{ x2 }}" y2="9" stroke="#f0b429" stroke-width="2"/>
+            <line x1="{{ x1 }}" y1="5" x2="{{ x1 }}" y2="13" stroke="#f0b429"/>
+            <line x1="{{ x2 }}" y1="5" x2="{{ x2 }}" y2="13" stroke="#f0b429"/>
+            <circle cx="{{ xm }}" cy="9" r="3.5" fill="#f0b429"/>
+          {% endif %}
+        </svg>
+        <span class="ci num">[{{ "%.0f"|format(r.ci_low) }}, {{ "%.0f"|format(r.ci_high) }}]</span>
+      </td>
+      <td class="num">{{ "%.1f"|format(r.accuracy * 100) }}% <span class="ci">&plusmn;{{ "%.1f"|format((r.acc_high - r.acc_low) * 50) }}</span></td>
+      <td class="num">{{ r.wins }}&ndash;{{ r.losses }}&ndash;{{ r.ties }}</td>
     </tr>
     {% endfor %}
   </table>
+  </div>
+  {% set top = board.rows[0] %}
+  <p class="callout">Why not plain Elo? Replaying the <em>same</em> {{ "{:,}".format(board.meta.n_games) }} games in
+     {{ board.meta.n_orders }} different orders moves online Elo by about &plusmn;{{ "%.0f"|format(top.elo_order_std) }} points
+     per model &mdash; wider than Bradley&ndash;Terry&rsquo;s entire 95% interval (&plusmn;{{ "%.0f"|format((top.ci_high - top.ci_low) / 2) }}).
+     Online Elo answers &ldquo;who won recently&rdquo;; Bradley&ndash;Terry answers &ldquo;who is stronger&rdquo;.</p>
 
-  <h2>Head-to-head battle</h2>
-  <form class="battle" method="post" action="/battle">
-    <label for="text">Text to classify</label>
-    <input type="text" id="text" name="text" placeholder="e.g. the striker scored the winning goal" required>
+  <div class="grid2" style="margin-top:36px">
+    <div>
+      <h2 style="margin-top:0">Win probability</h2>
+      <p class="note">Chance the row model wins a game against the column model, from the fitted ratings.</p>
+      <div class="scroll">
+      <table class="heat">
+        <tr><th></th>{% for r in board.rows %}<th title="{{ r.display_name }}">{{ r.rank }}</th>{% endfor %}</tr>
+        {% for r in board.rows %}{% set i = loop.index0 %}
+        <tr><th class="row">{{ r.rank }}. {{ r.display_name.split(" (")[0] }}</th>
+          {% for p in board.win_prob[i] %}
+            {% if loop.index0 == i %}<td style="color:#6e7681">&middot;</td>
+            {% else %}<td style="background: {{ 'rgba(63,185,80,%.2f)'|format((p - 0.5) * 1.6) if p > 0.5 else 'rgba(248,81,73,%.2f)'|format((0.5 - p) * 1.6) }}">{{ "%.0f"|format(p * 100) }}</td>{% endif %}
+          {% endfor %}</tr>
+        {% endfor %}
+      </table>
+      </div>
+    </div>
+    <div>
+      <h2 style="margin-top:0">Is the gap real?</h2>
+      <p class="note">Exact McNemar test on the posts where two models disagree, Holm-adjusted across all {{ board.mcnemar|length }} pairs.</p>
+      <ul class="pairs">
+        {% for t in board.mcnemar if not t.significant %}
+        <li><span class="tie">{{ display[t.a] }} &asymp; {{ display[t.b] }}</span><code>p = {{ t.p_holm }}</code></li>
+        {% endfor %}
+        {% set sig = board.mcnemar|selectattr("significant")|list %}
+        <li><span>Every other pair ({{ sig|length }} of {{ board.mcnemar|length }})</span><code>p &lt; .05</code></li>
+      </ul>
+      <p class="note" style="margin-top:12px">So the honest leaderboard has four tiers, not six ranks:
+        {{ board.rows[0].display_name }}, then SVM and logistic regression together, then random forest and k-NN together, then the baseline.</p>
+    </div>
+  </div>
+
+  <h2>Show me a fight</h2>
+  <p class="note">A real held-out post where the top three models disagree.</p>
+  <div class="card">
+    <pre class="post" id="post"></pre>
+    <div class="chips" id="fight-chips"></div>
+    <p class="truth" id="truth" hidden>Actual newsgroup: <code id="truth-label"></code></p>
+    <div class="row"><button id="reveal">Reveal predictions</button><button class="ghost" id="next">Another post</button></div>
+  </div>
+
+  <h2>Classify your own text</h2>
+  <p class="note">The models learned 20 Usenet newsgroups from the early 1990s: hockey, baseball, cars, motorcycles, space,
+     medicine, cryptography, electronics, Mac and PC hardware, Windows, graphics, guns, the Middle East, religion and more.</p>
+  <div class="card">
+    <textarea id="text" placeholder="Paste a paragraph…"></textarea>
     <div class="row">
-      <div>
-        <label for="expected">Expected topic</label>
-        <select id="expected" name="expected">
-          {% for c in classes %}<option value="{{ c }}">{{ c }}</option>{% endfor %}
-        </select>
-      </div>
-      <div>
-        <label for="model_a">Contender A</label>
-        <select id="model_a" name="model_a">
-          {% for n in names %}<option value="{{ n }}" {{ 'selected' if n == 'logreg' }}>{{ display[n] }}</option>{% endfor %}
-        </select>
-      </div>
-      <div>
-        <label for="model_b">Contender B</label>
-        <select id="model_b" name="model_b">
-          {% for n in names %}<option value="{{ n }}" {{ 'selected' if n == 'naive-bayes' }}>{{ display[n] }}</option>{% endfor %}
-        </select>
-      </div>
+      <button id="go">Run all six</button>
+      <button class="ex">The goalie stopped 40 shots and the Penguins won in overtime.</button>
+      <button class="ex">NASA delayed the shuttle launch after a fuel sensor fault on the pad.</button>
+      <button class="ex">My SCSI drive isn't recognised after I added more RAM to the Quadra.</button>
+      <span class="status" id="status"></span>
     </div>
-    <button type="submit">Fight!</button>
-  </form>
-
-  {% if result %}
-  <div class="result">
-    <div><strong>Text:</strong> {{ result.text }}</div>
-    <div style="margin-top:6px"><strong>Expected:</strong> {{ result.expected }}</div>
-    <div class="vs">
-      <div class="card {{ 'winner' if result.winner == result.name_a else '' }}">
-        <div>{{ display[result.name_a] }}</div>
-        <div class="pred {{ 'ok' if result.ok_a else 'miss' }}">{{ result.pred_a }}</div>
-        <div class="{{ 'ok' if result.ok_a else 'miss' }}">{{ 'correct' if result.ok_a else 'wrong' }}</div>
-      </div>
-      <div><strong>VS</strong></div>
-      <div class="card {{ 'winner' if result.winner == result.name_b else '' }}">
-        <div>{{ display[result.name_b] }}</div>
-        <div class="pred {{ 'ok' if result.ok_b else 'miss' }}">{{ result.pred_b }}</div>
-        <div class="{{ 'ok' if result.ok_b else 'miss' }}">{{ 'correct' if result.ok_b else 'wrong' }}</div>
-      </div>
-    </div>
-    <div style="margin-top:12px">
-      {% if result.winner == 'tie' %}<strong>Draw.</strong> Both models agreed.
-      {% else %}<strong>&#127942; {{ display[result.winner] }} wins the round.</strong>{% endif %}
-    </div>
-  </div>
-  {% endif %}
-
-  <div class="samples">
-    Try one:
-    {% for text, cls in samples %}<code onclick="document.getElementById('text').value=this.textContent;document.getElementById('expected').value='{{ cls }}'">{{ text }}</code> {% endfor %}
+    <div class="chips" id="own-chips" style="margin-top:14px"></div>
   </div>
 
-  <footer>
-    5 topics, synthetic template corpus, ELO k=32 from 1200, round-robin x3.
-    Full tournament: <code>python scripts/run_arena.py</code>
-  </footer>
+  <footer>Data: 20 Newsgroups, standard by-date split, headers, signatures and quoted replies removed so models can&rsquo;t
+    shortcut on metadata. Code and method: <a href="https://github.com/otawfik/model-arena">github.com/otawfik/model-arena</a>
+    &middot; JSON: <a href="/api/leaderboard">/api/leaderboard</a></footer>
 </div>
+
+<script>
+const FIGHTS = {{ fights|tojson }};
+const ORDER = {{ board.order|tojson }};
+const NAMES = {{ display|tojson }};
+const $ = (id) => document.getElementById(id);
+let cur = null;
+
+function chip(name, label, cls, conf) {
+  const d = document.createElement("div");
+  d.className = "chip " + (cls || "");
+  const c = conf == null ? "" : `<span class="conf">${Math.round(conf * 100)}%</span>`;
+  d.innerHTML = `${c}<div class="who"></div><div class="lab"></div>`;
+  d.querySelector(".who").textContent = NAMES[name] || name;
+  d.querySelector(".lab").textContent = label;
+  return d;
+}
+
+function showFight() {
+  cur = FIGHTS[Math.floor(Math.random() * FIGHTS.length)];
+  $("post").textContent = cur.text;
+  $("fight-chips").replaceChildren(...ORDER.map((n) => chip(n, "?")));
+  $("truth").hidden = true;
+  $("reveal").hidden = false;
+}
+
+$("reveal").onclick = () => {
+  $("fight-chips").replaceChildren(...ORDER.map((n) => chip(n, cur.preds[n], cur.preds[n] === cur.truth ? "ok" : "no")));
+  $("truth-label").textContent = cur.truth;
+  $("truth").hidden = false;
+  $("reveal").hidden = true;
+};
+$("next").onclick = showFight;
+
+async function classify() {
+  const text = $("text").value.trim();
+  if (!text) return;
+  $("status").textContent = "Running… (the first request loads the models, ~10s)";
+  $("go").disabled = true;
+  try {
+    const r = await fetch("/api/classify", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ text }) });
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.error || r.statusText);
+    $("own-chips").replaceChildren(...j.predictions.map((p) => chip(p.model, p.label, "", p.confidence)));
+    $("status").textContent = "";
+  } catch (e) {
+    $("status").textContent = "Error: " + e.message;
+  } finally {
+    $("go").disabled = false;
+  }
+}
+$("go").onclick = classify;
+document.querySelectorAll(".ex").forEach((b) => (b.onclick = () => { $("text").value = b.textContent; classify(); }));
+
+showFight();
+</script>
 </body>
 </html>

@@ -1,6 +1,11 @@
-"""Synthetic multi-class text dataset for the arena.
+"""Datasets for the arena.
 
-Five topics (sports, tech, food, travel, finance), each with class-indicative
+The benchmark runs on 20 Newsgroups (load_newsgroups): 18,846 real Usenet posts
+across 20 topics, with the standard by-date train/test split and headers,
+signatures and quoted replies stripped so models can't shortcut on metadata.
+
+generate() is a small synthetic corpus used by the test suite, which has to run
+offline and in seconds. Five topics (sports, tech, food, travel, finance), each with class-indicative
 vocabulary mixed with generic filler words through short sentence templates.
 Deterministic via numpy RandomState(seed) so tournaments are reproducible.
 A small amount of cross-topic word noise keeps the task non-trivial: with
@@ -8,6 +13,8 @@ noise=0.12, 12% of samples swap one topic word for a word from another
 topic, so the classes overlap and battles actually get decided.
 """
 import numpy as np
+
+NEWSGROUPS_STRIP = ("headers", "footers", "quotes")
 
 CLASSES = ["sports", "tech", "food", "travel", "finance"]
 
@@ -81,3 +88,19 @@ def train_test_split(texts, labels, test_size=0.25, seed=7):
         x_test.extend(items[cut:])
         y_test.extend([lab] * (len(items) - cut))
     return x_train, x_test, y_train, y_test
+
+
+def load_newsgroups(data_home=None):
+    """20 Newsgroups, standard by-date split, metadata stripped.
+
+    Returns (x_train, x_test, y_train, y_test, label_names). Downloads ~14MB on
+    first use and caches it under data_home (scikit-learn's default if None).
+    """
+    from sklearn.datasets import fetch_20newsgroups
+
+    train = fetch_20newsgroups(subset="train", remove=NEWSGROUPS_STRIP, data_home=data_home)
+    test = fetch_20newsgroups(subset="test", remove=NEWSGROUPS_STRIP, data_home=data_home)
+    names = list(train.target_names)
+    y_train = [names[i] for i in train.target]
+    y_test = [names[i] for i in test.target]
+    return list(train.data), list(test.data), y_train, y_test, names

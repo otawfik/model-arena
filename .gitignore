@@ -6,3 +6,8 @@ venv/
 .env
 .pytest_cache/
 *.egg-info/
+
+# local / deploy state — never commit
+.vercel/
+.env*
+artifacts/

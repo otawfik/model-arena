@@ -1,68 +1,324 @@
-[
-  {
-    "model": "naive-bayes",
-    "display_name": "Naive Bayes",
-    "elo": 1305.8,
-    "cv_accuracy": 1.0,
-    "cv_f1_macro": 1.0,
-    "wins": 9,
-    "losses": 0,
-    "ties": 6,
-    "rank": 1
+{
+  "meta": {
+    "n_test": 7532,
+    "n_games": 30000,
+    "n_boot": 500,
+    "n_orders": 50,
+    "elo_k": 4.0,
+    "seed": 7,
+    "dataset": "20 Newsgroups (by-date split, headers/footers/quotes removed)",
+    "n_train": 11314,
+    "n_classes": 20
   },
-  {
-    "model": "linear-svm",
-    "display_name": "Linear SVM",
-    "elo": 1303.9,
-    "cv_accuracy": 0.9987,
-    "cv_f1_macro": 0.9987,
-    "wins": 9,
-    "losses": 0,
-    "ties": 6,
-    "rank": 2
-  },
-  {
-    "model": "logreg",
-    "display_name": "Logistic Regression",
-    "elo": 1302.8,
-    "cv_accuracy": 1.0,
-    "cv_f1_macro": 1.0,
-    "wins": 9,
-    "losses": 0,
-    "ties": 6,
-    "rank": 3
-  },
-  {
-    "model": "knn",
-    "display_name": "k-Nearest Neighbors",
-    "elo": 1162.7,
-    "cv_accuracy": 0.9947,
-    "cv_f1_macro": 0.9947,
-    "wins": 6,
-    "losses": 9,
-    "ties": 0,
-    "rank": 4
-  },
-  {
-    "model": "random-forest",
-    "display_name": "Random Forest",
-    "elo": 1095.4,
-    "cv_accuracy": 0.984,
-    "cv_f1_macro": 0.9839,
-    "wins": 3,
-    "losses": 12,
-    "ties": 0,
-    "rank": 5
-  },
-  {
-    "model": "dummy",
-    "display_name": "Dummy (majority class)",
-    "elo": 1029.4,
-    "cv_accuracy": 0.2,
-    "cv_f1_macro": 0.0667,
-    "wins": 0,
-    "losses": 15,
-    "ties": 0,
-    "rank": 6
-  }
-]
+  "rows": [
+    {
+      "model": "naive-bayes",
+      "display_name": "Complement Naive Bayes",
+      "bt": 1057.3,
+      "ci_low": 1054.5,
+      "ci_high": 1060.2,
+      "rank_low": 1,
+      "rank_high": 1,
+      "elo_online": 1065.9,
+      "elo_order_std": 7.6,
+      "accuracy": 0.7146,
+      "acc_low": 0.7042,
+      "acc_high": 0.7246,
+      "wins": 2144,
+      "losses": 397,
+      "ties": 7407,
+      "rank": 1,
+      "fit_seconds": 1.97
+    },
+    {
+      "model": "linear-svm",
+      "display_name": "Linear SVM",
+      "bt": 1050.7,
+      "ci_low": 1048.3,
+      "ci_high": 1053.0,
+      "rank_low": 2,
+      "rank_high": 3,
+      "elo_online": 1046.5,
+      "elo_order_std": 6.8,
+      "accuracy": 0.6952,
+      "acc_low": 0.6847,
+      "acc_high": 0.7055,
+      "wins": 1934,
+      "losses": 396,
+      "ties": 7673,
+      "rank": 2,
+      "fit_seconds": 2.29
+    },
+    {
+      "model": "logreg",
+      "display_name": "Logistic Regression",
+      "bt": 1046.6,
+      "ci_low": 1044.4,
+      "ci_high": 1049.1,
+      "rank_low": 2,
+      "rank_high": 3,
+      "elo_online": 1046.5,
+      "elo_order_std": 7.6,
+      "accuracy": 0.6918,
+      "acc_low": 0.6813,
+      "acc_high": 0.7022,
+      "wins": 1879,
+      "losses": 444,
+      "ties": 7621,
+      "rank": 3,
+      "fit_seconds": 5.9
+    },
+    {
+      "model": "random-forest",
+      "display_name": "Random Forest",
+      "bt": 1026.3,
+      "ci_low": 1023.9,
+      "ci_high": 1028.9,
+      "rank_low": 4,
+      "rank_high": 5,
+      "elo_online": 1035.5,
+      "elo_order_std": 6.4,
+      "accuracy": 0.6317,
+      "acc_low": 0.6207,
+      "acc_high": 0.6425,
+      "wins": 1680,
+      "losses": 934,
+      "ties": 7348,
+      "rank": 4,
+      "fit_seconds": 2.86
+    },
+    {
+      "model": "knn",
+      "display_name": "k-Nearest Neighbors",
+      "bt": 1025.5,
+      "ci_low": 1022.6,
+      "ci_high": 1028.3,
+      "rank_low": 4,
+      "rank_high": 5,
+      "elo_online": 1018.8,
+      "elo_order_std": 6.7,
+      "accuracy": 0.6301,
+      "acc_low": 0.6191,
+      "acc_high": 0.6409,
+      "wins": 1710,
+      "losses": 981,
+      "ties": 7331,
+      "rank": 5,
+      "fit_seconds": 2.14
+    },
+    {
+      "model": "dummy",
+      "display_name": "Dummy (majority class)",
+      "bt": 793.6,
+      "ci_low": 789.0,
+      "ci_high": 798.2,
+      "rank_low": 6,
+      "rank_high": 6,
+      "elo_online": 786.8,
+      "elo_order_std": 10.0,
+      "accuracy": 0.053,
+      "acc_low": 0.0481,
+      "acc_high": 0.0583,
+      "wins": 80,
+      "losses": 6275,
+      "ties": 3766,
+      "rank": 6,
+      "fit_seconds": 2.0
+    }
+  ],
+  "order": [
+    "naive-bayes",
+    "linear-svm",
+    "logreg",
+    "random-forest",
+    "knn",
+    "dummy"
+  ],
+  "win_prob": [
+    [
+      0.5,
+      0.509,
+      0.515,
+      0.544,
+      0.546,
+      0.82
+    ],
+    [
+      0.491,
+      0.5,
+      0.506,
+      0.535,
+      0.536,
+      0.815
+    ],
+    [
+      0.485,
+      0.494,
+      0.5,
+      0.529,
+      0.53,
+      0.811
+    ],
+    [
+      0.456,
+      0.465,
+      0.471,
+      0.5,
+      0.501,
+      0.792
+    ],
+    [
+      0.454,
+      0.464,
+      0.47,
+      0.499,
+      0.5,
+      0.792
+    ],
+    [
+      0.18,
+      0.185,
+      0.189,
+      0.208,
+      0.208,
+      0.5
+    ]
+  ],
+  "mcnemar": [
+    {
+      "a": "naive-bayes",
+      "b": "logreg",
+      "only_a": 571,
+      "only_b": 400,
+      "p": 4.52e-08,
+      "p_holm": 1.81e-07,
+      "significant": true
+    },
+    {
+      "a": "naive-bayes",
+      "b": "linear-svm",
+      "only_a": 489,
+      "only_b": 343,
+      "p": 4.67e-07,
+      "p_holm": 1.4e-06,
+      "significant": true
+    },
+    {
+      "a": "naive-bayes",
+      "b": "random-forest",
+      "only_a": 991,
+      "only_b": 367,
+      "p": 1.68e-66,
+      "p_holm": 1.51e-65,
+      "significant": true
+    },
+    {
+      "a": "naive-bayes",
+      "b": "knn",
+      "only_a": 950,
+      "only_b": 314,
+      "p": 1.32e-74,
+      "p_holm": 1.32e-73,
+      "significant": true
+    },
+    {
+      "a": "naive-bayes",
+      "b": "dummy",
+      "only_a": 5009,
+      "only_b": 26,
+      "p": 0.0,
+      "p_holm": 0.0,
+      "significant": true
+    },
+    {
+      "a": "logreg",
+      "b": "linear-svm",
+      "only_a": 147,
+      "only_b": 172,
+      "p": 0.179,
+      "p_holm": 0.358,
+      "significant": false
+    },
+    {
+      "a": "logreg",
+      "b": "random-forest",
+      "only_a": 807,
+      "only_b": 354,
+      "p": 3.43e-41,
+      "p_holm": 2.06e-40,
+      "significant": true
+    },
+    {
+      "a": "logreg",
+      "b": "knn",
+      "only_a": 892,
+      "only_b": 427,
+      "p": 3.79e-38,
+      "p_holm": 1.9e-37,
+      "significant": true
+    },
+    {
+      "a": "logreg",
+      "b": "dummy",
+      "only_a": 4868,
+      "only_b": 56,
+      "p": 0.0,
+      "p_holm": 0.0,
+      "significant": true
+    },
+    {
+      "a": "linear-svm",
+      "b": "random-forest",
+      "only_a": 775,
+      "only_b": 297,
+      "p": 9.81e-50,
+      "p_holm": 7.85e-49,
+      "significant": true
+    },
+    {
+      "a": "linear-svm",
+      "b": "knn",
+      "only_a": 867,
+      "only_b": 377,
+      "p": 7.42e-45,
+      "p_holm": 5.2e-44,
+      "significant": true
+    },
+    {
+      "a": "linear-svm",
+      "b": "dummy",
+      "only_a": 4886,
+      "only_b": 49,
+      "p": 0.0,
+      "p_holm": 0.0,
+      "significant": true
+    },
+    {
+      "a": "random-forest",
+      "b": "knn",
+      "only_a": 869,
+      "only_b": 857,
+      "p": 0.791,
+      "p_holm": 0.791,
+      "significant": false
+    },
+    {
+      "a": "random-forest",
+      "b": "dummy",
+      "only_a": 4420,
+      "only_b": 61,
+      "p": 0.0,
+      "p_holm": 0.0,
+      "significant": true
+    },
+    {
+      "a": "knn",
+      "b": "dummy",
+      "only_a": 4407,
+      "only_b": 60,
+      "p": 0.0,
+      "p_holm": 0.0,
+      "significant": true
+    }
+  ]
+}
